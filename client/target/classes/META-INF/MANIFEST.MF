@@ -1,0 +1,28 @@
+Manifest-Version: 1.0
+Build-Jdk-Spec: 16
+Class-Path: lib/jakarta.xml.ws-api-3.0.1.jar lib/jakarta.xml.bind-api-3.
+ 0.1.jar lib/jakarta.xml.soap-api-2.0.1.jar lib/jakarta.jws-api-3.0.0.ja
+ r lib/jaxws-rt-3.0.1.jar lib/jaxb-impl-3.0.1.jar lib/jaxb-core-3.0.1.ja
+ r lib/ha-api-3.1.13.jar lib/management-api-3.2.3.jar lib/gmbal-api-only
+ -4.0.3.jar lib/stax-ex-2.0.1.jar lib/streambuffer-2.0.2.jar lib/mimepul
+ l-1.9.14.jar lib/FastInfoset-2.0.0.jar lib/jakarta.mail-2.0.1.jar lib/s
+ aaj-impl-2.0.1.jar lib/woodstox-core-6.2.4.jar lib/stax2-api-4.2.1.jar 
+ lib/jakarta.activation-2.0.1.jar lib/jakarta.annotation-api-2.0.0.jar l
+ ib/resteasy-client-3.13.2.Final.jar lib/jboss-jaxrs-api_2.1_spec-2.0.1.
+ Final.jar lib/resteasy-jaxrs-3.13.2.Final.jar lib/jboss-jaxb-api_2.3_sp
+ ec-2.0.0.Final.jar lib/reactive-streams-1.0.3.jar lib/jakarta.validatio
+ n-api-2.0.2.jar lib/jboss-annotations-api_1.3_spec-2.0.1.Final.jar lib/
+ jcip-annotations-1.0-1.jar lib/jboss-logging-3.3.2.Final.jar lib/httpcl
+ ient-4.5.12.jar lib/httpcore-4.4.13.jar lib/commons-logging-1.2.jar lib
+ /commons-codec-1.13.jar lib/commons-io-2.5.jar lib/resteasy-jackson2-pr
+ ovider-3.13.2.Final.jar lib/jackson-core-2.10.5.jar lib/jackson-databin
+ d-2.10.5.jar lib/jackson-annotations-2.10.5.jar lib/jackson-jaxrs-json-
+ provider-2.10.5.jar lib/jackson-jaxrs-base-2.10.5.jar lib/jackson-modul
+ e-jaxb-annotations-2.10.5.jar lib/jakarta.activation-api-1.2.1.jar lib/
+ json-patch-1.9.jar lib/jackson-coreutils-1.6.jar lib/msg-simple-1.1.jar
+  lib/btf-1.2.jar lib/guava-28.1-jre.jar lib/failureaccess-1.0.1.jar lib
+ /listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar lib/che
+ cker-qual-2.8.1.jar
+Main-Class: book.App
+Created-By: Maven Integration for Eclipse
+

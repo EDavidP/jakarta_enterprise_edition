@@ -1,0 +1,4 @@
+beans\EJBPublications.class
+beans\EJBResearchers.class
+beans\IEJBPublications.class
+beans\IEJBResearchers.class

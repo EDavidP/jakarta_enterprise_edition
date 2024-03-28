@@ -1,0 +1,154 @@
+<?xml version='1.0' encoding='UTF-8'?><wsdl:definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:tns="http://book/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:ns1="http://schemas.xmlsoap.org/soap/http" name="MyServiceSOAPService" targetNamespace="http://book/">
+  <wsdl:types>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://book/" elementFormDefault="unqualified" targetNamespace="http://book/" version="1.0">
+
+  <xs:element name="getInfotmationAboutResearchers" type="tns:getInfotmationAboutResearchers"/>
+
+  <xs:element name="getInfotmationAboutResearchersByInterest" type="tns:getInfotmationAboutResearchersByInterest"/>
+
+  <xs:element name="getInfotmationAboutResearchersByInterestResponse" type="tns:getInfotmationAboutResearchersByInterestResponse"/>
+
+  <xs:element name="getInfotmationAboutResearchersByName" type="tns:getInfotmationAboutResearchersByName"/>
+
+  <xs:element name="getInfotmationAboutResearchersByNameResponse" type="tns:getInfotmationAboutResearchersByNameResponse"/>
+
+  <xs:element name="getInfotmationAboutResearchersResponse" type="tns:getInfotmationAboutResearchersResponse"/>
+
+  <xs:complexType name="getInfotmationAboutResearchers">
+    <xs:sequence/>
+  </xs:complexType>
+
+  <xs:complexType name="getInfotmationAboutResearchersResponse">
+    <xs:sequence>
+      <xs:element maxOccurs="unbounded" minOccurs="0" name="return" type="tns:researcher"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="researcher">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="affiliation" type="xs:string"/>
+      <xs:element minOccurs="0" name="id" type="xs:long"/>
+      <xs:element maxOccurs="unbounded" minOccurs="0" name="interest" nillable="true" type="xs:string"/>
+      <xs:element minOccurs="0" name="name" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="publication">
+    <xs:sequence>
+      <xs:element maxOccurs="unbounded" minOccurs="0" name="authors" nillable="true" type="xs:string"/>
+      <xs:element minOccurs="0" name="edition" type="xs:string"/>
+      <xs:element minOccurs="0" name="id" type="xs:long"/>
+      <xs:element minOccurs="0" name="newsletter" type="xs:string"/>
+      <xs:element minOccurs="0" name="pages" type="xs:string"/>
+      <xs:element name="publicationDate" type="xs:int"/>
+      <xs:element minOccurs="0" name="title" type="xs:string"/>
+      <xs:element name="totalCitation" type="xs:int"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="getInfotmationAboutResearchersByName">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="arg0" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="getInfotmationAboutResearchersByNameResponse">
+    <xs:sequence>
+      <xs:element maxOccurs="unbounded" minOccurs="0" name="return" type="tns:researcher"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="getInfotmationAboutResearchersByInterest">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="arg0" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="getInfotmationAboutResearchersByInterestResponse">
+    <xs:sequence>
+      <xs:element maxOccurs="unbounded" minOccurs="0" name="return" type="tns:researcher"/>
+    </xs:sequence>
+  </xs:complexType>
+
+</xs:schema>
+  </wsdl:types>
+  <wsdl:message name="getInfotmationAboutResearchersByInterestResponse">
+    <wsdl:part element="tns:getInfotmationAboutResearchersByInterestResponse" name="parameters">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getInfotmationAboutResearchersResponse">
+    <wsdl:part element="tns:getInfotmationAboutResearchersResponse" name="parameters">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getInfotmationAboutResearchersByInterest">
+    <wsdl:part element="tns:getInfotmationAboutResearchersByInterest" name="parameters">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getInfotmationAboutResearchersByNameResponse">
+    <wsdl:part element="tns:getInfotmationAboutResearchersByNameResponse" name="parameters">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getInfotmationAboutResearchers">
+    <wsdl:part element="tns:getInfotmationAboutResearchers" name="parameters">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getInfotmationAboutResearchersByName">
+    <wsdl:part element="tns:getInfotmationAboutResearchersByName" name="parameters">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:portType name="MyServiceSOAP">
+    <wsdl:operation name="getInfotmationAboutResearchers">
+      <wsdl:input message="tns:getInfotmationAboutResearchers" name="getInfotmationAboutResearchers">
+    </wsdl:input>
+      <wsdl:output message="tns:getInfotmationAboutResearchersResponse" name="getInfotmationAboutResearchersResponse">
+    </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getInfotmationAboutResearchersByName">
+      <wsdl:input message="tns:getInfotmationAboutResearchersByName" name="getInfotmationAboutResearchersByName">
+    </wsdl:input>
+      <wsdl:output message="tns:getInfotmationAboutResearchersByNameResponse" name="getInfotmationAboutResearchersByNameResponse">
+    </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getInfotmationAboutResearchersByInterest">
+      <wsdl:input message="tns:getInfotmationAboutResearchersByInterest" name="getInfotmationAboutResearchersByInterest">
+    </wsdl:input>
+      <wsdl:output message="tns:getInfotmationAboutResearchersByInterestResponse" name="getInfotmationAboutResearchersByInterestResponse">
+    </wsdl:output>
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="MyServiceSOAPServiceSoapBinding" type="tns:MyServiceSOAP">
+    <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+    <wsdl:operation name="getInfotmationAboutResearchers">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="getInfotmationAboutResearchers">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="getInfotmationAboutResearchersResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getInfotmationAboutResearchersByName">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="getInfotmationAboutResearchersByName">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="getInfotmationAboutResearchersByNameResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getInfotmationAboutResearchersByInterest">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="getInfotmationAboutResearchersByInterest">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="getInfotmationAboutResearchersByInterestResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="MyServiceSOAPService">
+    <wsdl:port binding="tns:MyServiceSOAPServiceSoapBinding" name="MyServiceSOAPPort">
+      <soap:address location="http://localhost:8080/soap/MyServiceSOAP"/>
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

@@ -1,0 +1,132 @@
+2021-11-19 18:15:46,151 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-4) WFLYDS0013: Started FileSystemDeploymentService for directory /Users/julia/project2_v3_1/wildfly-24.0.0.Final/standalone/deployments
+2021-11-19 18:15:46,173 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0027: Starting deployment of "ear.ear" (runtime-name: "ear.ear")
+2021-11-19 18:15:46,246 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0006: Undertow HTTPS listener https listening on 127.0.0.1:8443
+2021-11-19 18:15:46,276 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 84) AMQ221000: live Message Broker is starting with configuration Broker Configuration (clustered=false,journalDirectory=/Users/julia/project2_v3_1/wildfly-24.0.0.Final/standalone/data/activemq/journal,bindingsDirectory=/Users/julia/project2_v3_1/wildfly-24.0.0.Final/standalone/data/activemq/bindings,largeMessagesDirectory=/Users/julia/project2_v3_1/wildfly-24.0.0.Final/standalone/data/activemq/largemessages,pagingDirectory=/Users/julia/project2_v3_1/wildfly-24.0.0.Final/standalone/data/activemq/paging)
+2021-11-19 18:15:46,333 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 84) AMQ221013: Using NIO Journal
+2021-11-19 18:15:46,467 INFO  [org.jboss.ws.common.management] (MSC service thread 1-6) JBWS022052: Starting JBossWS 5.4.4.Final (Apache CXF 3.3.10) 
+2021-11-19 18:15:46,511 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 84) AMQ221043: Protocol module found: [artemis-server]. Adding protocol support for: CORE
+2021-11-19 18:15:46,514 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 84) AMQ221043: Protocol module found: [artemis-amqp-protocol]. Adding protocol support for: AMQP
+2021-11-19 18:15:46,515 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 84) AMQ221043: Protocol module found: [artemis-hornetq-protocol]. Adding protocol support for: HORNETQ
+2021-11-19 18:15:46,515 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 84) AMQ221043: Protocol module found: [artemis-stomp-protocol]. Adding protocol support for: STOMP
+2021-11-19 18:15:46,521 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0207: Starting subdeployment (runtime-name: "soap.war")
+2021-11-19 18:15:46,521 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0207: Starting subdeployment (runtime-name: "rest.war")
+2021-11-19 18:15:46,521 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0207: Starting subdeployment (runtime-name: "web.war")
+2021-11-19 18:15:46,521 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0207: Starting subdeployment (runtime-name: "ejbs.jar")
+2021-11-19 18:15:46,684 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 84) AMQ221034: Waiting indefinitely to obtain live lock
+2021-11-19 18:15:46,690 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 84) AMQ221035: Live Server Obtained live lock
+2021-11-19 18:15:46,877 INFO  [org.jboss.as.jpa] (MSC service thread 1-4) WFLYJPA0002: Read persistence.xml for testPersistence
+2021-11-19 18:15:47,074 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 84) AMQ221003: Deploying ANYCAST queue jms.queue.ExpiryQueue on address jms.queue.ExpiryQueue
+2021-11-19 18:15:47,410 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 84) AMQ221003: Deploying ANYCAST queue jms.queue.DLQ on address jms.queue.DLQ
+2021-11-19 18:15:47,521 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-5) WFLYMSGAMQ0016: Registered HTTP upgrade for activemq-remoting protocol handled by http-acceptor acceptor
+2021-11-19 18:15:47,522 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-1) WFLYMSGAMQ0016: Registered HTTP upgrade for activemq-remoting protocol handled by http-acceptor acceptor
+2021-11-19 18:15:47,521 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-7) WFLYMSGAMQ0016: Registered HTTP upgrade for activemq-remoting protocol handled by http-acceptor-throughput acceptor
+2021-11-19 18:15:47,522 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-6) WFLYMSGAMQ0016: Registered HTTP upgrade for activemq-remoting protocol handled by http-acceptor-throughput acceptor
+2021-11-19 18:15:47,778 INFO  [org.jipijapa] (MSC service thread 1-7) JIPIORMV53020253: Second level cache enabled for ear.ear#testPersistence
+2021-11-19 18:15:47,877 INFO  [org.jboss.weld.deployer] (MSC service thread 1-2) WFLYWELD0003: Processing weld deployment ear.ear
+2021-11-19 18:15:48,032 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-2) HV000001: Hibernate Validator 6.0.22.Final
+2021-11-19 18:15:48,153 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 84) AMQ221007: Server is now live
+2021-11-19 18:15:48,158 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 84) AMQ221001: Apache ActiveMQ Artemis Message Broker version 2.16.0 [default, nodeID=b74c2278-4964-11ec-97f7-748f3cc47a4e] 
+2021-11-19 18:15:48,187 INFO  [org.wildfly.extension.messaging-activemq] (ServerService Thread Pool -- 84) WFLYMSGAMQ0002: Bound messaging object to jndi name java:/ConnectionFactory
+2021-11-19 18:15:48,220 INFO  [org.wildfly.extension.messaging-activemq] (ServerService Thread Pool -- 87) WFLYMSGAMQ0002: Bound messaging object to jndi name java:jboss/exported/jms/RemoteConnectionFactory
+2021-11-19 18:15:48,257 INFO  [org.infinispan.CONTAINER] (ServerService Thread Pool -- 85) ISPN000128: Infinispan version: Infinispan 'Taedonggang' 12.1.4.Final
+2021-11-19 18:15:48,263 INFO  [org.jboss.as.connector.deployment] (MSC service thread 1-4) WFLYJCA0007: Registered connection factory java:/JmsXA
+2021-11-19 18:15:48,328 INFO  [org.apache.activemq.artemis.ra] (MSC service thread 1-4) AMQ151007: Resource adaptor started
+2021-11-19 18:15:48,335 INFO  [org.jboss.as.connector.services.resourceadapters.ResourceAdapterActivatorService$ResourceAdapterActivator] (MSC service thread 1-4) IJ020002: Deployed: file://RaActivatoractivemq-ra
+2021-11-19 18:15:48,339 INFO  [org.jboss.as.connector.deployment] (MSC service thread 1-3) WFLYJCA0118: Binding connection factory named java:/JmsXA to alias java:jboss/DefaultJMSConnectionFactory
+2021-11-19 18:15:48,339 INFO  [org.jboss.as.connector.deployment] (MSC service thread 1-1) WFLYJCA0002: Bound Jakarta Connectors ConnectionFactory [java:/JmsXA]
+2021-11-19 18:15:48,347 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 85) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'ear.ear#testPersistence'
+2021-11-19 18:15:48,363 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 85) HHH000204: Processing PersistenceUnitInfo [
+	name: testPersistence
+	...]
+2021-11-19 18:15:48,451 INFO  [org.hibernate.Version] (ServerService Thread Pool -- 85) HHH000412: Hibernate Core {5.3.20.Final}
+2021-11-19 18:15:48,454 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 85) HHH000206: hibernate.properties not found
+2021-11-19 18:15:48,505 INFO  [org.jboss.weld.deployer] (MSC service thread 1-6) WFLYWELD0003: Processing weld deployment soap.war
+2021-11-19 18:15:48,505 INFO  [org.jboss.weld.deployer] (MSC service thread 1-4) WFLYWELD0003: Processing weld deployment web.war
+2021-11-19 18:15:48,526 INFO  [org.jboss.weld.deployer] (MSC service thread 1-1) WFLYWELD0003: Processing weld deployment rest.war
+2021-11-19 18:15:48,553 INFO  [org.jboss.weld.deployer] (MSC service thread 1-8) WFLYWELD0003: Processing weld deployment ejbs.jar
+2021-11-19 18:15:48,569 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'EJBResearchers' in deployment unit 'subdeployment "ejbs.jar" of deployment "ear.ear"' are as follows:
+
+	java:global/ear/ejbs/EJBResearchers!beans.IEJBResearchers
+	java:app/ejbs/EJBResearchers!beans.IEJBResearchers
+	java:module/EJBResearchers!beans.IEJBResearchers
+	java:jboss/exported/ear/ejbs/EJBResearchers!beans.IEJBResearchers
+	ejb:ear/ejbs/EJBResearchers!beans.IEJBResearchers
+	java:global/ear/ejbs/EJBResearchers
+	java:app/ejbs/EJBResearchers
+	java:module/EJBResearchers
+
+2021-11-19 18:15:48,587 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'EJBPublications' in deployment unit 'subdeployment "ejbs.jar" of deployment "ear.ear"' are as follows:
+
+	java:global/ear/ejbs/EJBPublications!beans.IEJBPublications
+	java:app/ejbs/EJBPublications!beans.IEJBPublications
+	java:module/EJBPublications!beans.IEJBPublications
+	java:jboss/exported/ear/ejbs/EJBPublications!beans.IEJBPublications
+	ejb:ear/ejbs/EJBPublications!beans.IEJBPublications
+	java:global/ear/ejbs/EJBPublications
+	java:app/ejbs/EJBPublications
+	java:module/EJBPublications
+
+2021-11-19 18:15:48,688 INFO  [org.wildfly.microprofile.opentracing.smallrye] (MSC service thread 1-8) WFLYTRAC0001: Tracer initialized: NoopTracer
+2021-11-19 18:15:48,866 INFO  [org.hibernate.annotations.common.Version] (ServerService Thread Pool -- 85) HCANN000001: Hibernate Commons Annotations {5.0.5.Final}
+2021-11-19 18:15:48,983 INFO  [io.jaegertracing.internal.JaegerTracer] (MSC service thread 1-1) No shutdown hook registered: Please call close() manually on application shutdown.
+2021-11-19 18:15:48,987 INFO  [org.wildfly.microprofile.opentracing.smallrye] (MSC service thread 1-1) WFLYTRAC0001: Tracer initialized: JaegerTracer(version=Java-1.5.0, serviceName=ear.ear!rest.war, reporter=RemoteReporter(sender=org.wildfly.extension.microprofile.opentracing.spi.sender.WildFlySender@1522df2b, closeEnqueueTimeout=1000), sampler=ConstSampler(decision=true, tags={sampler.type=const, sampler.param=true}), tags={hostname=MacBook-Pro-10.lan, jaeger.version=Java-1.5.0, ip=192.168.31.240}, zipkinSharedRpcSpan=false, expandExceptionLogs=false, useTraceId128Bit=false)
+2021-11-19 18:15:48,999 INFO  [io.jaegertracing.internal.JaegerTracer] (MSC service thread 1-6) No shutdown hook registered: Please call close() manually on application shutdown.
+2021-11-19 18:15:49,001 INFO  [io.jaegertracing.internal.JaegerTracer] (MSC service thread 1-4) No shutdown hook registered: Please call close() manually on application shutdown.
+2021-11-19 18:15:49,002 INFO  [org.wildfly.microprofile.opentracing.smallrye] (MSC service thread 1-4) WFLYTRAC0001: Tracer initialized: JaegerTracer(version=Java-1.5.0, serviceName=ear.ear!web.war, reporter=RemoteReporter(sender=org.wildfly.extension.microprofile.opentracing.spi.sender.WildFlySender@fe5431, closeEnqueueTimeout=1000), sampler=RemoteControlledSampler(maxOperations=2000, manager=HttpSamplingManager(hostPort=localhost:5778), sampler=ProbabilisticSampler(tags={sampler.type=probabilistic, sampler.param=0.001})), tags={hostname=MacBook-Pro-10.lan, jaeger.version=Java-1.5.0, ip=192.168.31.240}, zipkinSharedRpcSpan=false, expandExceptionLogs=false, useTraceId128Bit=false)
+2021-11-19 18:15:49,002 INFO  [org.wildfly.microprofile.opentracing.smallrye] (MSC service thread 1-6) WFLYTRAC0001: Tracer initialized: JaegerTracer(version=Java-1.5.0, serviceName=ear.ear!soap.war, reporter=RemoteReporter(sender=org.wildfly.extension.microprofile.opentracing.spi.sender.WildFlySender@5b2dbd0d, closeEnqueueTimeout=1000), sampler=RemoteControlledSampler(maxOperations=2000, manager=HttpSamplingManager(hostPort=localhost:5778), sampler=ProbabilisticSampler(tags={sampler.type=probabilistic, sampler.param=0.001})), tags={hostname=MacBook-Pro-10.lan, jaeger.version=Java-1.5.0, ip=192.168.31.240}, zipkinSharedRpcSpan=false, expandExceptionLogs=false, useTraceId128Bit=false)
+2021-11-19 18:15:49,057 INFO  [org.jipijapa] (MSC service thread 1-7) JIPIORMV53020253: Second level cache enabled for ear.ear#testPersistence
+2021-11-19 18:15:49,083 INFO  [org.infinispan.CONFIG] (MSC service thread 1-2) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2021-11-19 18:15:49,085 INFO  [org.infinispan.CONFIG] (MSC service thread 1-2) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2021-11-19 18:15:49,111 INFO  [org.jboss.weld.Version] (MSC service thread 1-7) WELD-000900: 3.1.7 (SP1)
+2021-11-19 18:15:49,165 INFO  [org.infinispan.CONTAINER] (ServerService Thread Pool -- 85) ISPN000556: Starting user marshaller 'org.wildfly.clustering.infinispan.spi.marshalling.InfinispanProtoStreamMarshaller'
+2021-11-19 18:15:49,531 INFO  [org.jboss.ws.cxf.metadata] (MSC service thread 1-2) JBWS024061: Adding service endpoint metadata: id=book.MyServiceSOAP
+ address=http://localhost:8080/soap/MyServiceSOAP
+ implementor=book.MyServiceSOAP
+ serviceName={http://book/}MyServiceSOAPService
+ portName={http://book/}MyServiceSOAPPort
+ annotationWsdlLocation=null
+ wsdlLocationOverride=null
+ mtomEnabled=false
+2021-11-19 18:15:49,618 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 85) WFLYCLINF0002: Started http-remoting-connector cache from ejb container
+2021-11-19 18:15:49,628 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 87) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'ear.ear#testPersistence'
+2021-11-19 18:15:49,986 WARN  [org.jboss.jca.core.connectionmanager.pool.strategy.OnePool] (ServerService Thread Pool -- 87) IJ000407: No lazy enlistment available for ResearchersandPublications
+2021-11-19 18:15:50,016 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 87) HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2021-11-19 18:15:50,165 INFO  [org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl] (ServerService Thread Pool -- 87) HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2021-11-19 18:15:50,173 INFO  [org.hibernate.type.BasicTypeRegistry] (ServerService Thread Pool -- 87) HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@1e64d068
+2021-11-19 18:15:50,182 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 87) Envers integration enabled? : true
+2021-11-19 18:15:50,213 INFO  [org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean] (MSC service thread 1-2) Creating Service {http://book/}MyServiceSOAPService from class book.MyServiceSOAP
+2021-11-19 18:15:50,723 INFO  [org.apache.cxf.endpoint.ServerImpl] (MSC service thread 1-2) Setting the server's publish address to be http://localhost:8080/soap/MyServiceSOAP
+2021-11-19 18:15:50,827 INFO  [org.jboss.ws.cxf.deployment] (MSC service thread 1-2) JBWS024074: WSDL published to: file:/Users/julia/project2_v3_1/wildfly-24.0.0.Final/standalone/data/wsdl/ear.ear/soap.war/MyServiceSOAPService.wsdl
+2021-11-19 18:15:50,902 INFO  [org.jboss.as.webservices] (MSC service thread 1-4) WFLYWS0003: Starting service jboss.ws.endpoint."ear.ear"."soap.war"."book.MyServiceSOAP"
+2021-11-19 18:15:52,406 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 87) WFLYUT0021: Registered web context: '/web' for server 'default-server'
+2021-11-19 18:15:52,407 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 86) WFLYUT0021: Registered web context: '/soap' for server 'default-server'
+2021-11-19 18:15:52,703 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 85) RESTEASY002225: Deploying javax.ws.rs.core.Application: class book.ApplicationConfig
+2021-11-19 18:15:52,781 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 85) WFLYUT0021: Registered web context: '/rest' for server 'default-server'
+2021-11-19 18:15:52,935 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 48) WFLYSRV0010: Deployed "ear.ear" (runtime-name : "ear.ear")
+2021-11-19 18:15:53,189 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+2021-11-19 18:15:53,198 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Full 24.0.0.Final (WildFly Core 16.0.0.Final) started in 14488ms - Started 811 of 995 services (382 services are lazy, passive or on-demand)
+2021-11-19 18:15:53,203 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2021-11-19 18:15:53,203 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2021-11-19 18:16:27,477 INFO  [org.jboss.ejb.client] (default task-1) JBoss EJB Client version 4.0.41.Final
+2021-11-19 18:16:27,750 INFO  [org.hibernate.hql.internal.QueryTranslatorFactoryInitiator] (default task-1) HHH000397: Using ASTQueryTranslatorFactory
+2021-11-19 18:16:27,799 INFO  [stdout] (default task-1) Hibernate: select publicatio0_.publication_id as publicat1_0_, publicatio0_.edition as edition2_0_, publicatio0_.newsletter as newslett3_0_, publicatio0_.pages as pages4_0_, publicatio0_.publicationDate as publicat5_0_, publicatio0_.title as title6_0_, publicatio0_.totalCitation as totalCit7_0_ from publication publicatio0_
+2021-11-19 18:16:27,831 INFO  [stdout] (default task-1) Hibernate: select authors0_.Publication_publication_id as Publicat1_1_0_, authors0_.authors as authors2_1_0_ from Publication_authors authors0_ where authors0_.Publication_publication_id=?
+2021-11-19 18:16:27,840 INFO  [stdout] (default task-1) Hibernate: select authors0_.Publication_publication_id as Publicat1_1_0_, authors0_.authors as authors2_1_0_ from Publication_authors authors0_ where authors0_.Publication_publication_id=?
+2021-11-19 18:16:27,841 INFO  [stdout] (default task-1) Hibernate: select authors0_.Publication_publication_id as Publicat1_1_0_, authors0_.authors as authors2_1_0_ from Publication_authors authors0_ where authors0_.Publication_publication_id=?
+2021-11-19 18:16:27,842 INFO  [stdout] (default task-1) Hibernate: select authors0_.Publication_publication_id as Publicat1_1_0_, authors0_.authors as authors2_1_0_ from Publication_authors authors0_ where authors0_.Publication_publication_id=?
+2021-11-19 18:16:27,843 INFO  [stdout] (default task-1) Hibernate: select authors0_.Publication_publication_id as Publicat1_1_0_, authors0_.authors as authors2_1_0_ from Publication_authors authors0_ where authors0_.Publication_publication_id=?
+2021-11-19 18:16:27,844 INFO  [stdout] (default task-1) Hibernate: select authors0_.Publication_publication_id as Publicat1_1_0_, authors0_.authors as authors2_1_0_ from Publication_authors authors0_ where authors0_.Publication_publication_id=?
+2021-11-19 18:16:27,847 INFO  [stdout] (default task-1) Hibernate: select authors0_.Publication_publication_id as Publicat1_1_0_, authors0_.authors as authors2_1_0_ from Publication_authors authors0_ where authors0_.Publication_publication_id=?
+2021-11-19 18:16:27,848 INFO  [stdout] (default task-1) Hibernate: select authors0_.Publication_publication_id as Publicat1_1_0_, authors0_.authors as authors2_1_0_ from Publication_authors authors0_ where authors0_.Publication_publication_id=?
+2021-11-19 18:16:27,849 INFO  [stdout] (default task-1) Hibernate: select authors0_.Publication_publication_id as Publicat1_1_0_, authors0_.authors as authors2_1_0_ from Publication_authors authors0_ where authors0_.Publication_publication_id=?
+2021-11-19 18:16:27,899 INFO  [stdout] (default task-1) Publication list: [Epileptic seizure prediction using relative spectral power
+2021-11-19 18:16:27,900 INFO  [stdout] (default task-1) 				features, Preprocessing effects of 22 linear univariate features on the
+2021-11-19 18:16:27,900 INFO  [stdout] (default task-1) 				performance of seizure prediction methods, Noise detection in phonocardiograms by exploring similarities
+2021-11-19 18:16:27,900 INFO  [stdout] (default task-1) 				in spectral features, Understanding tremor in rapid upper limb movements using 3d
+2021-11-19 18:16:27,900 INFO  [stdout] (default task-1) 				accelerometers data, A survey on data quality: classifying poor data, Effective detection of SQL/XPath injection vulnerabilities in
+2021-11-19 18:16:27,900 INFO  [stdout] (default task-1) 				web services, A Black Box Tool for Robustness Testing of REST Services, Interpretability and learning in neuro-fuzzy systems, Slow modulations of high-frequency activity (40–140 Hz)
+2021-11-19 18:16:27,901 INFO  [stdout] (default task-1) 				discriminate preictal changes in human focal epilepsy]
+2021-11-19 18:54:44,179 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 91) WFLYDR0009: Content /Users/julia/project2_v3_1/wildfly-24.0.0.Final/standalone/data/content/4f/779b62eb9f9965b53989e8c9413e83810518bf is obsolete and will be removed
+2021-11-19 18:54:44,241 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 91) WFLYDR0002: Content removed from location /Users/julia/project2_v3_1/wildfly-24.0.0.Final/standalone/data/content/4f/779b62eb9f9965b53989e8c9413e83810518bf/content
+2021-11-19 18:54:44,242 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 91) WFLYDR0009: Content /Users/julia/project2_v3_1/wildfly-24.0.0.Final/standalone/data/content/bd/e4f97e46622a238a88ae1671b7221096af0801 is obsolete and will be removed
+2021-11-19 18:54:44,243 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 91) WFLYDR0002: Content removed from location /Users/julia/project2_v3_1/wildfly-24.0.0.Final/standalone/data/content/bd/e4f97e46622a238a88ae1671b7221096af0801/content

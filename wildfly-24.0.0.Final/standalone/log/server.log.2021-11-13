@@ -1,0 +1,569 @@
+2021-11-13 18:21:33,017 WARN  [org.jboss.as.domain.management.security] (MSC service thread 1-8) WFLYDM0111: Keystore C:\Users\edson\eclipse-workspace\project2_v3_1\wildfly-24.0.0.Final\standalone\configuration\application.keystore not found, it will be auto generated on first use with a self signed certificate for host localhost
+2021-11-13 18:21:33,022 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-4) WFLYDS0013: Started FileSystemDeploymentService for directory C:\Users\edson\eclipse-workspace\project2_v3_1\wildfly-24.0.0.Final\standalone\deployments
+2021-11-13 18:21:33,078 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-5) WFLYJCA0001: Bound data source [java:/postgresDS]
+2021-11-13 18:21:33,079 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-5) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2021-11-13 18:21:33,143 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0006: Undertow HTTPS listener https listening on 127.0.0.1:8443
+2021-11-13 18:21:33,292 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 84) AMQ221000: live Message Broker is starting with configuration Broker Configuration (clustered=false,journalDirectory=C:\Users\edson\eclipse-workspace\project2_v3_1\wildfly-24.0.0.Final\standalone\data\activemq\journal,bindingsDirectory=C:\Users\edson\eclipse-workspace\project2_v3_1\wildfly-24.0.0.Final\standalone\data\activemq\bindings,largeMessagesDirectory=C:\Users\edson\eclipse-workspace\project2_v3_1\wildfly-24.0.0.Final\standalone\data\activemq\largemessages,pagingDirectory=C:\Users\edson\eclipse-workspace\project2_v3_1\wildfly-24.0.0.Final\standalone\data\activemq\paging)
+2021-11-13 18:21:33,382 INFO  [org.jboss.ws.common.management] (MSC service thread 1-8) JBWS022052: Starting JBossWS 5.4.4.Final (Apache CXF 3.3.10) 
+2021-11-13 18:21:33,409 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 84) AMQ221013: Using NIO Journal
+2021-11-13 18:21:33,440 INFO  [org.wildfly.iiop.openjdk] (MSC service thread 1-1) WFLYIIOP0009: CORBA ORB Service started
+2021-11-13 18:21:33,576 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 84) AMQ221043: Protocol module found: [artemis-server]. Adding protocol support for: CORE
+2021-11-13 18:21:33,578 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 84) AMQ221043: Protocol module found: [artemis-amqp-protocol]. Adding protocol support for: AMQP
+2021-11-13 18:21:33,580 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 84) AMQ221043: Protocol module found: [artemis-hornetq-protocol]. Adding protocol support for: HORNETQ
+2021-11-13 18:21:33,585 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 84) AMQ221043: Protocol module found: [artemis-stomp-protocol]. Adding protocol support for: STOMP
+2021-11-13 18:21:33,674 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 84) AMQ221034: Waiting indefinitely to obtain live lock
+2021-11-13 18:21:33,674 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 84) AMQ221035: Live Server Obtained live lock
+2021-11-13 18:21:34,346 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 84) AMQ221003: Deploying ANYCAST queue jms.queue.ExpiryQueue on address jms.queue.ExpiryQueue
+2021-11-13 18:21:34,361 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 84) AMQ221003: Deploying ANYCAST queue jms.queue.DLQ on address jms.queue.DLQ
+2021-11-13 18:21:34,365 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-6) WFLYMSGAMQ0016: Registered HTTP upgrade for activemq-remoting protocol handled by http-acceptor-throughput acceptor
+2021-11-13 18:21:34,365 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-1) WFLYMSGAMQ0016: Registered HTTP upgrade for activemq-remoting protocol handled by http-acceptor acceptor
+2021-11-13 18:21:34,365 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-7) WFLYMSGAMQ0016: Registered HTTP upgrade for activemq-remoting protocol handled by http-acceptor acceptor
+2021-11-13 18:21:34,365 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-4) WFLYMSGAMQ0016: Registered HTTP upgrade for activemq-remoting protocol handled by http-acceptor-throughput acceptor
+2021-11-13 18:21:34,644 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 84) AMQ221007: Server is now live
+2021-11-13 18:21:34,645 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 84) AMQ221001: Apache ActiveMQ Artemis Message Broker version 2.16.0 [default, nodeID=fd4b0c71-4319-11ec-a3ac-409f3845594b] 
+2021-11-13 18:21:34,674 INFO  [org.wildfly.extension.messaging-activemq] (ServerService Thread Pool -- 86) WFLYMSGAMQ0002: Bound messaging object to jndi name java:/ConnectionFactory
+2021-11-13 18:21:34,675 INFO  [org.wildfly.extension.messaging-activemq] (ServerService Thread Pool -- 87) WFLYMSGAMQ0002: Bound messaging object to jndi name java:jboss/exported/jms/RemoteConnectionFactory
+2021-11-13 18:21:34,731 INFO  [org.jboss.as.connector.deployment] (MSC service thread 1-8) WFLYJCA0007: Registered connection factory java:/JmsXA
+2021-11-13 18:21:34,791 INFO  [org.apache.activemq.artemis.ra] (MSC service thread 1-8) AMQ151007: Resource adaptor started
+2021-11-13 18:21:34,791 INFO  [org.jboss.as.connector.services.resourceadapters.ResourceAdapterActivatorService$ResourceAdapterActivator] (MSC service thread 1-8) IJ020002: Deployed: file://RaActivatoractivemq-ra
+2021-11-13 18:21:34,795 INFO  [org.jboss.as.connector.deployment] (MSC service thread 1-4) WFLYJCA0002: Bound Jakarta Connectors ConnectionFactory [java:/JmsXA]
+2021-11-13 18:21:34,795 INFO  [org.jboss.as.connector.deployment] (MSC service thread 1-8) WFLYJCA0118: Binding connection factory named java:/JmsXA to alias java:jboss/DefaultJMSConnectionFactory
+2021-11-13 18:21:34,967 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+2021-11-13 18:21:34,970 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Full 24.0.0.Final (WildFly Core 16.0.0.Final) started in 8432ms - Started 367 of 607 services (361 services are lazy, passive or on-demand)
+2021-11-13 18:21:34,977 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2021-11-13 18:21:34,978 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2021-11-13 19:45:25,687 INFO  [org.jboss.as.server] (Thread-1) WFLYSRV0272: Suspending server
+2021-11-13 19:45:25,952 INFO  [org.jboss.as.ejb3] (Thread-1) WFLYEJB0493: Jakarta Enterprise Beans subsystem suspension complete
+2021-11-13 19:45:26,034 INFO  [org.jboss.as.server] (Thread-1) WFLYSRV0220: Server shutdown has been requested via an OS signal
+2021-11-13 19:45:26,198 INFO  [org.jboss.as.connector.deployment] (MSC service thread 1-6) WFLYJCA0119: Unbinding connection factory named java:/JmsXA to alias java:jboss/DefaultJMSConnectionFactory
+2021-11-13 19:45:26,199 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-1) WFLYJCA0010: Unbound data source [java:jboss/datasources/ExampleDS]
+2021-11-13 19:45:26,200 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) WFLYJCA0010: Unbound data source [java:/postgresDS]
+2021-11-13 19:45:26,203 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-1) WFLYJCA0019: Stopped Driver service with driver-name = h2
+2021-11-13 19:45:26,209 INFO  [org.jboss.as.connector.deployment] (MSC service thread 1-6) WFLYJCA0011: Unbound Jakarta Connectors ConnectionFactory [java:/JmsXA]
+2021-11-13 19:45:26,211 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0019: Host default-host stopping
+2021-11-13 19:45:26,211 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-6) WFLYMAIL0002: Unbound mail session [java:jboss/mail/Default]
+2021-11-13 19:45:26,223 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-1) WFLYMSGAMQ0006: Unbound messaging object to jndi name java:jboss/exported/jms/RemoteConnectionFactory
+2021-11-13 19:45:26,238 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0008: Undertow HTTPS listener https suspending
+2021-11-13 19:45:26,243 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0007: Undertow HTTPS listener https stopped, was bound to 127.0.0.1:8443
+2021-11-13 19:45:26,252 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-2) WFLYJCA0019: Stopped Driver service with driver-name = postgresql
+2021-11-13 19:45:26,480 INFO  [org.apache.activemq.artemis.ra] (ServerService Thread Pool -- 93) AMQ151003: resource adaptor stopped
+2021-11-13 19:45:26,788 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 93) AMQ221002: Apache ActiveMQ Artemis Message Broker version 2.16.0 [fd4b0c71-4319-11ec-a3ac-409f3845594b] stopped, uptime 1 hour 23 minutes
+2021-11-13 19:45:26,795 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0008: Undertow HTTP listener default suspending
+2021-11-13 19:45:26,797 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0007: Undertow HTTP listener default stopped, was bound to 127.0.0.1:8080
+2021-11-13 19:45:26,805 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0004: Undertow 2.2.8.Final stopping
+2021-11-13 19:45:26,855 INFO  [org.jboss.as] (MSC service thread 1-8) WFLYSRV0050: WildFly Full 24.0.0.Final (WildFly Core 16.0.0.Final) stopped in 726ms
+2021-11-13 19:46:44,586 INFO  [org.jboss.modules] (main) JBoss Modules version 1.11.0.Final
+2021-11-13 19:46:45,694 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.12.Final
+2021-11-13 19:46:45,727 INFO  [org.jboss.threads] (main) JBoss Threads version 2.4.0.Final
+2021-11-13 19:46:45,992 INFO  [org.jboss.as] (MSC service thread 1-3) WFLYSRV0049: WildFly Full 24.0.0.Final (WildFly Core 16.0.0.Final) starting
+2021-11-13 19:46:45,996 DEBUG [org.jboss.as.config] (MSC service thread 1-3) Configured system properties:
+	file.encoding = Cp1252
+	file.separator = \
+	java.awt.headless = true
+	java.class.path = C:\Users\edson\eclipse-workspace\project2_v3_1\wildfly-24.0.0.Final\jboss-modules.jar
+	java.class.version = 60.0
+	java.home = C:\Program Files\Java\jdk-16.0.2
+	java.io.tmpdir = C:\Users\edson\AppData\Local\Temp\
+	java.library.path = C:\Program Files\Java\jdk-16.0.2\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\libnvvp;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\NVIDIA Corporation\Nsight Compute 2019.4.0\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\MATLAB\R2021a\bin;C:\TDM-GCC-64\bin;C:\Program Files\Portugal Identity Card\;C:\Users\edson\eclipse-workspace\project2\apache-maven-3.8.3\bin;C:\Users\edson\AppData\Local\Microsoft\WindowsApps;;C:\Users\edson\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\edson\.dotnet\tools;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 16.0.2+7-67
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 16
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = https://java.oracle.com/
+	java.vendor.url.bug = https://bugreport.java.com/bugreport/
+	java.version = 16.0.2
+	java.version.date = 2021-07-20
+	java.vm.compressedOopsMode = 32-bit
+	java.vm.info = mixed mode, sharing
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 16
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 16.0.2+7-67
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	jboss.home.dir = C:\Users\edson\eclipse-workspace\project2_v3_1\wildfly-24.0.0.Final
+	jboss.host.name = desktop-r4v6io5
+	jboss.modules.dir = C:\Users\edson\eclipse-workspace\project2_v3_1\wildfly-24.0.0.Final\modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = desktop-r4v6io5
+	jboss.qualified.host.name = desktop-r4v6io5
+	jboss.server.base.dir = C:\Users\edson\eclipse-workspace\project2_v3_1\wildfly-24.0.0.Final\standalone
+	jboss.server.config.dir = C:\Users\edson\eclipse-workspace\project2_v3_1\wildfly-24.0.0.Final\standalone\configuration
+	jboss.server.data.dir = C:\Users\edson\eclipse-workspace\project2_v3_1\wildfly-24.0.0.Final\standalone\data
+	jboss.server.deploy.dir = C:\Users\edson\eclipse-workspace\project2_v3_1\wildfly-24.0.0.Final\standalone\data\content
+	jboss.server.log.dir = C:\Users\edson\eclipse-workspace\project2_v3_1\wildfly-24.0.0.Final\standalone\log
+	jboss.server.name = desktop-r4v6io5
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = C:\Users\edson\eclipse-workspace\project2_v3_1\wildfly-24.0.0.Final\standalone\tmp
+	jdk.debug = release
+	line.separator = 
+
+	logging.configuration = file:C:\Users\edson\eclipse-workspace\project2_v3_1\wildfly-24.0.0.Final\standalone\configuration/logging.properties
+	module.path = C:\Users\edson\eclipse-workspace\project2_v3_1\wildfly-24.0.0.Final\modules
+	org.jboss.boot.log.file = C:\Users\edson\eclipse-workspace\project2_v3_1\wildfly-24.0.0.Final\standalone\log\server.log
+	org.jboss.resolver.warning = true
+	os.arch = amd64
+	os.name = Windows 10
+	os.version = 10.0
+	path.separator = ;
+	program.name = standalone.bat
+	sun.arch.data.model = 64
+	sun.boot.library.path = C:\Program Files\Java\jdk-16.0.2\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = C:\Users\edson\eclipse-workspace\project2_v3_1\wildfly-24.0.0.Final\jboss-modules.jar -mp C:\Users\edson\eclipse-workspace\project2_v3_1\wildfly-24.0.0.Final\modules org.jboss.as.standalone -Djboss.home.dir=C:\Users\edson\eclipse-workspace\project2_v3_1\wildfly-24.0.0.Final --server-config=standalone-full.xml
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1252
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = 
+	sun.stderr.encoding = cp850
+	sun.stdout.encoding = cp850
+	user.country = PT
+	user.dir = C:\Users\edson\eclipse-workspace\project2_v3_1\wildfly-24.0.0.Final
+	user.home = C:\Users\edson
+	user.language = pt
+	user.name = edson
+	user.script = 
+	user.timezone = Europe/Lisbon
+	user.variant = 
+2021-11-13 19:46:46,001 DEBUG [org.jboss.as.config] (MSC service thread 1-3) VM Arguments: -Dprogram.name=standalone.bat -Dprogram.name=standalone.bat -Xms64M -Xmx512M -XX:MetaspaceSize=96M -XX:MaxMetaspaceSize=256m -Djava.net.preferIPv4Stack=true -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true --add-exports=java.desktop/sun.awt=ALL-UNNAMED --add-exports=java.naming/com.sun.jndi.ldap=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.lang.invoke=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.security=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.management/javax.management=ALL-UNNAMED --add-opens=java.naming/javax.naming=ALL-UNNAMED --add-exports=java.desktop/sun.awt=ALL-UNNAMED --add-exports=java.naming/com.sun.jndi.ldap=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.lang.invoke=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.security=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.management/javax.management=ALL-UNNAMED --add-opens=java.naming/javax.naming=ALL-UNNAMED --add-exports=java.desktop/sun.awt=ALL-UNNAMED --add-exports=java.naming/com.sun.jndi.ldap=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.lang.invoke=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.security=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.management/javax.management=ALL-UNNAMED --add-opens=java.naming/javax.naming=ALL-UNNAMED -Dorg.jboss.boot.log.file=C:\Users\edson\eclipse-workspace\project2_v3_1\wildfly-24.0.0.Final\standalone\log\server.log -Dlogging.configuration=file:C:\Users\edson\eclipse-workspace\project2_v3_1\wildfly-24.0.0.Final\standalone\configuration/logging.properties 
+2021-11-13 19:46:48,117 INFO  [org.wildfly.security] (ServerService Thread Pool -- 29) ELY00001: WildFly Elytron version 1.16.0.Final
+2021-11-13 19:46:49,092 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 26) WFLYCTL0033: Extension 'security' is deprecated and may not be supported in future versions
+2021-11-13 19:46:49,893 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/core-service=management/management-interface=http-interface' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2021-11-13 19:46:49,974 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 16) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/subsystem=undertow/server=default-server/https-listener=https' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2021-11-13 19:46:50,579 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 5) WFLYDR0001: Content added at location C:\Users\edson\eclipse-workspace\project2_v3_1\wildfly-24.0.0.Final\standalone\data\content\12\9662d21f360bd056b6f9c71e91b566ab79f436\content
+2021-11-13 19:46:50,647 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2021-11-13 19:46:50,698 INFO  [org.xnio] (MSC service thread 1-1) XNIO version 3.8.4.Final
+2021-11-13 19:46:50,730 INFO  [org.xnio.nio] (MSC service thread 1-1) XNIO NIO Implementation Version 3.8.4.Final
+2021-11-13 19:46:50,849 INFO  [org.wildfly.extension.health] (ServerService Thread Pool -- 55) WFLYHEALTH0001: Activating Base Health Subsystem
+2021-11-13 19:46:50,879 INFO  [org.wildfly.extension.microprofile.config.smallrye] (ServerService Thread Pool -- 69) WFLYCONF0001: Activating MicroProfile Config Subsystem
+2021-11-13 19:46:50,879 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 57) WFLYCLINF0001: Activating Infinispan subsystem.
+2021-11-13 19:46:50,881 INFO  [org.wildfly.extension.microprofile.jwt.smallrye] (ServerService Thread Pool -- 70) WFLYJWT0001: Activating MicroProfile JWT Subsystem
+2021-11-13 19:46:50,892 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 80) WFLYTX0013: The node-identifier attribute on the /subsystem=transactions is set to the default value. This is a danger for environments running multiple servers. Please make sure the attribute value is unique.
+2021-11-13 19:46:50,933 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 64) WFLYJSF0007: Activated the following Jakarta Server Faces Implementations: [main]
+2021-11-13 19:46:51,002 INFO  [org.wildfly.extension.metrics] (ServerService Thread Pool -- 68) WFLYMETRICS0001: Activating Base Metrics Subsystem
+2021-11-13 19:46:51,002 INFO  [org.wildfly.extension.microprofile.opentracing] (ServerService Thread Pool -- 71) WFLYTRACEXT0001: Activating MicroProfile OpenTracing Subsystem
+2021-11-13 19:46:51,005 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 78) WFLYSEC0002: Activating Security Subsystem
+2021-11-13 19:46:51,005 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 72) WFLYNAM0001: Activating Naming Subsystem
+2021-11-13 19:46:51,010 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 82) WFLYWS0002: Activating WebServices Extension
+2021-11-13 19:46:51,015 INFO  [org.wildfly.iiop.openjdk] (ServerService Thread Pool -- 56) WFLYIIOP0001: Activating IIOP Subsystem
+2021-11-13 19:46:51,066 INFO  [org.jboss.as.security] (MSC service thread 1-5) WFLYSEC0001: Current PicketBox version=5.0.3.Final-redhat-00007
+2021-11-13 19:46:51,089 INFO  [org.jboss.as.jaxrs] (ServerService Thread Pool -- 59) WFLYRS0016: RESTEasy version 3.15.1.Final
+2021-11-13 19:46:51,184 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0003: Undertow 2.2.8.Final starting
+2021-11-13 19:46:51,222 INFO  [org.jboss.as.connector] (MSC service thread 1-4) WFLYJCA0009: Starting Jakarta Connectors Subsystem (WildFly/IronJacamar 1.4.35.Final)
+2021-11-13 19:46:51,257 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 58) WFLYIO001: Worker 'default' has auto-configured to 16 IO threads with 128 max task threads based on your 8 available processors
+2021-11-13 19:46:51,492 INFO  [org.jboss.as.naming] (MSC service thread 1-4) WFLYNAM0003: Starting Naming Service
+2021-11-13 19:46:51,499 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-4) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2021-11-13 19:46:51,674 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 47) WFLYJCA0005: Deploying non-JDBC-compliant driver class org.postgresql.Driver (version 42.3)
+2021-11-13 19:46:51,738 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 47) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.4)
+2021-11-13 19:46:51,794 WARN  [org.wildfly.extension.elytron] (MSC service thread 1-8) WFLYELY00023: KeyStore file 'C:\Users\edson\eclipse-workspace\project2_v3_1\wildfly-24.0.0.Final\standalone\configuration\application.keystore' does not exist. Used blank.
+2021-11-13 19:46:51,832 INFO  [org.jboss.remoting] (MSC service thread 1-1) JBoss Remoting version 5.0.23.Final
+2021-11-13 19:46:51,885 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 81) WFLYUT0014: Creating file handler for path 'C:\Users\edson\eclipse-workspace\project2_v3_1\wildfly-24.0.0.Final/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2021-11-13 19:46:51,946 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-6) WFLYJCA0018: Started Driver service with driver-name = postgresql
+2021-11-13 19:46:51,971 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-6) WFLYJCA0018: Started Driver service with driver-name = h2
+2021-11-13 19:46:52,043 INFO  [org.jboss.as.ejb3] (MSC service thread 1-3) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 32 (per class), which is derived from the number of CPUs on this host.
+2021-11-13 19:46:52,043 INFO  [org.jboss.as.ejb3] (MSC service thread 1-7) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 128 (per class), which is derived from thread worker pool sizing.
+2021-11-13 19:46:52,073 WARN  [org.wildfly.extension.elytron] (MSC service thread 1-6) WFLYELY01084: KeyStore C:\Users\edson\eclipse-workspace\project2_v3_1\wildfly-24.0.0.Final\standalone\configuration\application.keystore not found, it will be auto generated on first use with a self-signed certificate for host localhost
+2021-11-13 19:46:52,517 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0012: Started server default-server.
+2021-11-13 19:46:52,576 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) Queuing requests.
+2021-11-13 19:46:52,586 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0018: Host default-host starting
+2021-11-13 19:46:52,813 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0006: Undertow HTTP listener default listening on 127.0.0.1:8080
+2021-11-13 19:46:53,306 INFO  [org.jboss.as.ejb3] (MSC service thread 1-7) WFLYEJB0493: Jakarta Enterprise Beans subsystem suspension complete
+2021-11-13 19:46:53,513 INFO  [org.jboss.as.patching] (MSC service thread 1-5) WFLYPAT0050: WildFly Full cumulative patch ID is: base, one-off patches include: none
+2021-11-13 19:46:53,556 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-1) WFLYMSGAMQ0001: AIO wasn't located on this platform, it will fall back to using pure Java NIO.
+2021-11-13 19:46:53,646 WARN  [org.jboss.as.domain.management.security] (MSC service thread 1-7) WFLYDM0111: Keystore C:\Users\edson\eclipse-workspace\project2_v3_1\wildfly-24.0.0.Final\standalone\configuration\application.keystore not found, it will be auto generated on first use with a self signed certificate for host localhost
+2021-11-13 19:46:53,662 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-6) WFLYDS0013: Started FileSystemDeploymentService for directory C:\Users\edson\eclipse-workspace\project2_v3_1\wildfly-24.0.0.Final\standalone\deployments
+2021-11-13 19:46:53,705 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-4) WFLYJCA0001: Bound data source [java:/postgresDS]
+2021-11-13 19:46:53,707 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-4) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2021-11-13 19:46:53,730 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0027: Starting deployment of "jpa.jar" (runtime-name: "jpa.jar")
+2021-11-13 19:46:53,848 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0006: Undertow HTTPS listener https listening on 127.0.0.1:8443
+2021-11-13 19:46:53,916 INFO  [org.wildfly.iiop.openjdk] (MSC service thread 1-3) WFLYIIOP0009: CORBA ORB Service started
+2021-11-13 19:46:54,089 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 84) AMQ221000: live Message Broker is starting with configuration Broker Configuration (clustered=false,journalDirectory=C:\Users\edson\eclipse-workspace\project2_v3_1\wildfly-24.0.0.Final\standalone\data\activemq\journal,bindingsDirectory=C:\Users\edson\eclipse-workspace\project2_v3_1\wildfly-24.0.0.Final\standalone\data\activemq\bindings,largeMessagesDirectory=C:\Users\edson\eclipse-workspace\project2_v3_1\wildfly-24.0.0.Final\standalone\data\activemq\largemessages,pagingDirectory=C:\Users\edson\eclipse-workspace\project2_v3_1\wildfly-24.0.0.Final\standalone\data\activemq\paging)
+2021-11-13 19:46:54,193 INFO  [org.jboss.ws.common.management] (MSC service thread 1-6) JBWS022052: Starting JBossWS 5.4.4.Final (Apache CXF 3.3.10) 
+2021-11-13 19:46:54,231 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 84) AMQ221013: Using NIO Journal
+2021-11-13 19:46:54,400 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 84) AMQ221043: Protocol module found: [artemis-server]. Adding protocol support for: CORE
+2021-11-13 19:46:54,403 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 84) AMQ221043: Protocol module found: [artemis-amqp-protocol]. Adding protocol support for: AMQP
+2021-11-13 19:46:54,405 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 84) AMQ221043: Protocol module found: [artemis-hornetq-protocol]. Adding protocol support for: HORNETQ
+2021-11-13 19:46:54,410 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 84) AMQ221043: Protocol module found: [artemis-stomp-protocol]. Adding protocol support for: STOMP
+2021-11-13 19:46:54,567 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 84) AMQ221034: Waiting indefinitely to obtain live lock
+2021-11-13 19:46:54,568 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 84) AMQ221035: Live Server Obtained live lock
+2021-11-13 19:46:55,636 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 84) AMQ221003: Deploying ANYCAST queue jms.queue.ExpiryQueue on address jms.queue.ExpiryQueue
+2021-11-13 19:46:55,667 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 84) AMQ221003: Deploying ANYCAST queue jms.queue.DLQ on address jms.queue.DLQ
+2021-11-13 19:46:55,705 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-2) WFLYMSGAMQ0016: Registered HTTP upgrade for activemq-remoting protocol handled by http-acceptor acceptor
+2021-11-13 19:46:55,705 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-1) WFLYMSGAMQ0016: Registered HTTP upgrade for activemq-remoting protocol handled by http-acceptor acceptor
+2021-11-13 19:46:55,705 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-4) WFLYMSGAMQ0016: Registered HTTP upgrade for activemq-remoting protocol handled by http-acceptor-throughput acceptor
+2021-11-13 19:46:55,705 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-8) WFLYMSGAMQ0016: Registered HTTP upgrade for activemq-remoting protocol handled by http-acceptor-throughput acceptor
+2021-11-13 19:46:56,182 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 84) AMQ221007: Server is now live
+2021-11-13 19:46:56,182 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 84) AMQ221001: Apache ActiveMQ Artemis Message Broker version 2.16.0 [default, nodeID=fd4b0c71-4319-11ec-a3ac-409f3845594b] 
+2021-11-13 19:46:56,210 INFO  [org.wildfly.extension.messaging-activemq] (ServerService Thread Pool -- 84) WFLYMSGAMQ0002: Bound messaging object to jndi name java:/ConnectionFactory
+2021-11-13 19:46:56,250 INFO  [org.wildfly.extension.messaging-activemq] (ServerService Thread Pool -- 86) WFLYMSGAMQ0002: Bound messaging object to jndi name java:jboss/exported/jms/RemoteConnectionFactory
+2021-11-13 19:46:56,279 INFO  [org.infinispan.CONTAINER] (ServerService Thread Pool -- 85) ISPN000128: Infinispan version: Infinispan 'Taedonggang' 12.1.4.Final
+2021-11-13 19:46:56,341 INFO  [org.jboss.as.connector.deployment] (MSC service thread 1-8) WFLYJCA0007: Registered connection factory java:/JmsXA
+2021-11-13 19:46:56,401 INFO  [org.infinispan.CONFIG] (MSC service thread 1-3) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2021-11-13 19:46:56,406 INFO  [org.infinispan.CONFIG] (MSC service thread 1-3) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2021-11-13 19:46:56,502 INFO  [org.apache.activemq.artemis.ra] (MSC service thread 1-8) AMQ151007: Resource adaptor started
+2021-11-13 19:46:56,503 INFO  [org.jboss.as.connector.services.resourceadapters.ResourceAdapterActivatorService$ResourceAdapterActivator] (MSC service thread 1-8) IJ020002: Deployed: file://RaActivatoractivemq-ra
+2021-11-13 19:46:56,513 INFO  [org.jboss.as.connector.deployment] (MSC service thread 1-8) WFLYJCA0002: Bound Jakarta Connectors ConnectionFactory [java:/JmsXA]
+2021-11-13 19:46:56,513 INFO  [org.jboss.as.connector.deployment] (MSC service thread 1-2) WFLYJCA0118: Binding connection factory named java:/JmsXA to alias java:jboss/DefaultJMSConnectionFactory
+2021-11-13 19:46:56,518 INFO  [org.infinispan.CONTAINER] (ServerService Thread Pool -- 85) ISPN000556: Starting user marshaller 'org.wildfly.clustering.infinispan.spi.marshalling.InfinispanProtoStreamMarshaller'
+2021-11-13 19:46:56,692 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 85) WFLYCLINF0002: Started http-remoting-connector cache from ejb container
+2021-11-13 19:46:56,903 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 48) WFLYSRV0010: Deployed "jpa.jar" (runtime-name : "jpa.jar")
+2021-11-13 19:46:57,061 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+2021-11-13 19:46:57,066 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Full 24.0.0.Final (WildFly Core 16.0.0.Final) started in 13314ms - Started 453 of 655 services (364 services are lazy, passive or on-demand)
+2021-11-13 19:46:57,072 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2021-11-13 19:46:57,077 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2021-11-13 19:57:38,159 INFO  [org.jboss.as.repository] (DeploymentScanner-threads - 1) WFLYDR0001: Content added at location C:\Users\edson\eclipse-workspace\project2_v3_1\wildfly-24.0.0.Final\standalone\data\content\6f\83026f8c81ab19e130adf43ede74c78921cb70\content
+2021-11-13 19:57:38,237 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0027: Starting deployment of "ejbs.jar" (runtime-name: "ejbs.jar")
+2021-11-13 19:57:39,506 INFO  [org.jboss.weld.deployer] (MSC service thread 1-1) WFLYWELD0003: Processing weld deployment ejbs.jar
+2021-11-13 19:57:39,891 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-1) HV000001: Hibernate Validator 6.0.22.Final
+2021-11-13 19:57:40,451 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-1) WFLYEJB0473: JNDI bindings for session bean named 'EJBResearchers' in deployment unit 'deployment "ejbs.jar"' are as follows:
+
+	java:global/ejbs/EJBResearchers!beans.IEJBResearchers
+	java:app/ejbs/EJBResearchers!beans.IEJBResearchers
+	java:module/EJBResearchers!beans.IEJBResearchers
+	java:jboss/exported/ejbs/EJBResearchers!beans.IEJBResearchers
+	ejb:/ejbs/EJBResearchers!beans.IEJBResearchers
+	java:global/ejbs/EJBResearchers
+	java:app/ejbs/EJBResearchers
+	java:module/EJBResearchers
+
+2021-11-13 19:57:40,453 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-1) WFLYEJB0473: JNDI bindings for session bean named 'EJBPublications' in deployment unit 'deployment "ejbs.jar"' are as follows:
+
+	java:global/ejbs/EJBPublications!beans.IEJBPublications
+	java:app/ejbs/EJBPublications!beans.IEJBPublications
+	java:module/EJBPublications!beans.IEJBPublications
+	java:jboss/exported/ejbs/EJBPublications!beans.IEJBPublications
+	ejb:/ejbs/EJBPublications!beans.IEJBPublications
+	java:global/ejbs/EJBPublications
+	java:app/ejbs/EJBPublications
+	java:module/EJBPublications
+
+2021-11-13 19:57:40,599 INFO  [org.wildfly.microprofile.opentracing.smallrye] (MSC service thread 1-1) WFLYTRAC0001: Tracer initialized: NoopTracer
+2021-11-13 19:57:41,010 ERROR [org.jboss.msc.service.fail] (MSC service thread 1-8) MSC000001: Failed to start service jboss.deployment.unit."ejbs.jar".INSTALL: org.jboss.msc.service.StartException in service jboss.deployment.unit."ejbs.jar".INSTALL: WFLYSRV0153: Failed to process phase INSTALL of deployment "ejbs.jar"
+	at org.jboss.as.server@16.0.0.Final//org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:189)
+	at org.jboss.msc@1.4.12.Final//org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1739)
+	at org.jboss.msc@1.4.12.Final//org.jboss.msc.service.ServiceControllerImpl$StartTask.execute(ServiceControllerImpl.java:1701)
+	at org.jboss.msc@1.4.12.Final//org.jboss.msc.service.ServiceControllerImpl$ControllerTask.run(ServiceControllerImpl.java:1559)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1990)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1486)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1377)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+Caused by: org.jboss.as.server.deployment.DeploymentUnitProcessingException: WFLYEE0041: Component class beans.EJBResearchers for component EJBResearchers has errors: 
+WFLYJPA0033: Can't find a persistence unit named search in deployment "ejbs.jar"
+	at org.jboss.as.ee@24.0.0.Final//org.jboss.as.ee.component.deployers.ModuleJndiBindingProcessor$1.handle(ModuleJndiBindingProcessor.java:218)
+	at org.jboss.as.ee@24.0.0.Final//org.jboss.as.ee.component.ClassDescriptionTraversal.run(ClassDescriptionTraversal.java:54)
+	at org.jboss.as.ee@24.0.0.Final//org.jboss.as.ee.component.deployers.ModuleJndiBindingProcessor.processClassConfigurations(ModuleJndiBindingProcessor.java:246)
+	at org.jboss.as.ee@24.0.0.Final//org.jboss.as.ee.component.deployers.ModuleJndiBindingProcessor.deploy(ModuleJndiBindingProcessor.java:160)
+	at org.jboss.as.server@16.0.0.Final//org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:182)
+	... 8 more
+
+2021-11-13 19:57:41,032 ERROR [org.jboss.as.controller.management-operation] (DeploymentScanner-threads - 1) WFLYCTL0013: Operation ("deploy") failed - address: ([("deployment" => "ejbs.jar")]) - failure description: {
+    "WFLYCTL0080: Failed services" => {"jboss.deployment.unit.\"ejbs.jar\".INSTALL" => "WFLYSRV0153: Failed to process phase INSTALL of deployment \"ejbs.jar\"
+    Caused by: org.jboss.as.server.deployment.DeploymentUnitProcessingException: WFLYEE0041: Component class beans.EJBResearchers for component EJBResearchers has errors: 
+WFLYJPA0033: Can't find a persistence unit named search in deployment \"ejbs.jar\""},
+    "WFLYCTL0412: Required services that are not installed:" => [
+        "jboss.deployment.unit.\"ejbs.jar\".WeldStartService",
+        "jboss.deployment.unit.\"ejbs.jar\".beanmanager",
+        "jboss.naming.context.java.comp.ejbs.ejbs.EJBResearchers",
+        "jboss.naming.context.java.comp.ejbs.ejbs.EJBPublications"
+    ],
+    "WFLYCTL0180: Services with missing/unavailable dependencies" => [
+        "jboss.deployment.unit.\"ejbs.jar\".weld.weldClassIntrospector is missing [jboss.deployment.unit.\"ejbs.jar\".beanmanager, jboss.deployment.unit.\"ejbs.jar\".WeldStartService]",
+        "jboss.naming.context.java.comp.ejbs.ejbs.EJBPublications.ORB is missing [jboss.naming.context.java.comp.ejbs.ejbs.EJBPublications]",
+        "jboss.naming.context.java.comp.ejbs.ejbs.EJBPublications.ValidatorFactory is missing [jboss.naming.context.java.comp.ejbs.ejbs.EJBPublications]",
+        "jboss.naming.context.java.comp.ejbs.ejbs.EJBResearchers.ValidatorFactory is missing [jboss.naming.context.java.comp.ejbs.ejbs.EJBResearchers]",
+        "jboss.naming.context.java.comp.ejbs.ejbs.EJBResearchers.InstanceName is missing [jboss.naming.context.java.comp.ejbs.ejbs.EJBResearchers]",
+        "jboss.naming.context.java.comp.ejbs.ejbs.EJBPublications.HandleDelegate is missing [jboss.naming.context.java.comp.ejbs.ejbs.EJBPublications]",
+        "jboss.naming.context.java.comp.ejbs.ejbs.EJBResearchers.Validator is missing [jboss.naming.context.java.comp.ejbs.ejbs.EJBResearchers]",
+        "jboss.naming.context.java.comp.ejbs.ejbs.EJBResearchers.InAppClientContainer is missing [jboss.naming.context.java.comp.ejbs.ejbs.EJBResearchers]",
+        "jboss.naming.context.java.comp.ejbs.ejbs.EJBPublications.InAppClientContainer is missing [jboss.naming.context.java.comp.ejbs.ejbs.EJBPublications]",
+        "jboss.naming.context.java.comp.ejbs.ejbs.EJBPublications.Validator is missing [jboss.naming.context.java.comp.ejbs.ejbs.EJBPublications]",
+        "jboss.deployment.unit.\"ejbs.jar\".batch.artifact.factory is missing [jboss.deployment.unit.\"ejbs.jar\".beanmanager]",
+        "jboss.naming.context.java.comp.ejbs.ejbs.EJBResearchers.ORB is missing [jboss.naming.context.java.comp.ejbs.ejbs.EJBResearchers]",
+        "jboss.naming.context.java.comp.ejbs.ejbs.EJBResearchers.HandleDelegate is missing [jboss.naming.context.java.comp.ejbs.ejbs.EJBResearchers]",
+        "jboss.naming.context.java.comp.ejbs.ejbs.EJBPublications.InstanceName is missing [jboss.naming.context.java.comp.ejbs.ejbs.EJBPublications]"
+    ]
+}
+2021-11-13 19:57:41,352 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0010: Deployed "ejbs.jar" (runtime-name : "ejbs.jar")
+2021-11-13 19:57:41,354 INFO  [org.jboss.as.controller] (DeploymentScanner-threads - 1) WFLYCTL0183: Service status report
+WFLYCTL0184:    New missing/unsatisfied dependencies:
+      service jboss.deployment.unit."ejbs.jar".WeldStartService (missing) dependents: [service jboss.deployment.unit."ejbs.jar".weld.weldClassIntrospector] 
+      service jboss.deployment.unit."ejbs.jar".beanmanager (missing) dependents: [service jboss.deployment.unit."ejbs.jar".batch.artifact.factory, service jboss.deployment.unit."ejbs.jar".weld.weldClassIntrospector] 
+      service jboss.naming.context.java.comp.ejbs.ejbs.EJBPublications (missing) dependents: [service jboss.naming.context.java.comp.ejbs.ejbs.EJBPublications.Validator, service jboss.naming.context.java.comp.ejbs.ejbs.EJBPublications.ORB, service jboss.naming.context.java.comp.ejbs.ejbs.EJBPublications.ValidatorFactory, service jboss.naming.context.java.comp.ejbs.ejbs.EJBPublications.InstanceName, WFLYCTL0208: ... and 3 more ] 
+      service jboss.naming.context.java.comp.ejbs.ejbs.EJBResearchers (missing) dependents: [service jboss.naming.context.java.comp.ejbs.ejbs.EJBResearchers.Validator, service jboss.naming.context.java.comp.ejbs.ejbs.EJBResearchers.HandleDelegate, service jboss.naming.context.java.comp.ejbs.ejbs.EJBResearchers.ValidatorFactory, service jboss.naming.context.java.comp.ejbs.ejbs.EJBResearchers.ORB, WFLYCTL0208: ... and 3 more ] 
+WFLYCTL0186:   Services which failed to start:      service jboss.deployment.unit."ejbs.jar".INSTALL: WFLYSRV0153: Failed to process phase INSTALL of deployment "ejbs.jar"
+WFLYCTL0448: 2 additional services are down due to their dependencies being missing or failed
+2021-11-13 19:57:46,745 INFO  [org.jboss.as.repository] (DeploymentScanner-threads - 2) WFLYDR0001: Content added at location C:\Users\edson\eclipse-workspace\project2_v3_1\wildfly-24.0.0.Final\standalone\data\content\c9\05d294051a192bf12f6d1f3edc600b94d145de\content
+2021-11-13 19:57:46,782 INFO  [org.jboss.as.repository] (DeploymentScanner-threads - 2) WFLYDR0001: Content added at location C:\Users\edson\eclipse-workspace\project2_v3_1\wildfly-24.0.0.Final\standalone\data\content\cc\880ec9fc39dc3a7f4e4a1857510cb5e3371eac\content
+2021-11-13 19:57:46,800 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0027: Starting deployment of "ear.ear" (runtime-name: "ear.ear")
+2021-11-13 19:57:46,803 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0027: Starting deployment of "rest.war" (runtime-name: "rest.war")
+2021-11-13 19:57:47,873 INFO  [org.jboss.weld.deployer] (MSC service thread 1-6) WFLYWELD0003: Processing weld deployment rest.war
+2021-11-13 19:57:48,252 INFO  [io.jaegertracing.internal.JaegerTracer] (MSC service thread 1-6) No shutdown hook registered: Please call close() manually on application shutdown.
+2021-11-13 19:57:48,256 INFO  [org.wildfly.microprofile.opentracing.smallrye] (MSC service thread 1-6) WFLYTRAC0001: Tracer initialized: JaegerTracer(version=Java-1.5.0, serviceName=rest.war, reporter=RemoteReporter(sender=org.wildfly.extension.microprofile.opentracing.spi.sender.WildFlySender@2c096508, closeEnqueueTimeout=1000), sampler=ConstSampler(decision=true, tags={sampler.type=const, sampler.param=true}), tags={hostname=DESKTOP-R4V6IO5, jaeger.version=Java-1.5.0, ip=194.210.38.207}, zipkinSharedRpcSpan=false, expandExceptionLogs=false, useTraceId128Bit=false)
+2021-11-13 19:57:48,318 ERROR [org.jboss.msc.service.fail] (MSC service thread 1-3) MSC000001: Failed to start service jboss.deployment.unit."rest.war".INSTALL: org.jboss.msc.service.StartException in service jboss.deployment.unit."rest.war".INSTALL: WFLYSRV0153: Failed to process phase INSTALL of deployment "rest.war"
+	at org.jboss.as.server@16.0.0.Final//org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:189)
+	at org.jboss.msc@1.4.12.Final//org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1739)
+	at org.jboss.msc@1.4.12.Final//org.jboss.msc.service.ServiceControllerImpl$StartTask.execute(ServiceControllerImpl.java:1701)
+	at org.jboss.msc@1.4.12.Final//org.jboss.msc.service.ServiceControllerImpl$ControllerTask.run(ServiceControllerImpl.java:1559)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1990)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1486)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1363)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+Caused by: org.jboss.as.server.deployment.DeploymentUnitProcessingException: WFLYEJB0406: No Jakarta Enterprise Beans found with interface of type 'beans.IEJBPublications' for binding book.MyServiceREST/managePublications
+	at org.jboss.as.ejb3@24.0.0.Final//org.jboss.as.ejb3.deployment.processors.EjbInjectionSource.getResourceValue(EjbInjectionSource.java:90)
+	at org.jboss.as.ee@24.0.0.Final//org.jboss.as.ee.component.deployers.ModuleJndiBindingProcessor.addJndiBinding(ModuleJndiBindingProcessor.java:271)
+	at org.jboss.as.ee@24.0.0.Final//org.jboss.as.ee.component.deployers.ModuleJndiBindingProcessor.deploy(ModuleJndiBindingProcessor.java:202)
+	at org.jboss.as.server@16.0.0.Final//org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:182)
+	... 8 more
+
+2021-11-13 19:57:52,753 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0059: Class Path entry org/aesh/aesh-readline/1.17/aesh-readline-1.17.jar in /C:/Users/edson/eclipse-workspace/project2_v3_1/wildfly-24.0.0.Final/content/ear.ear/lib/aesh.jar  does not point to a valid jar for a Class-Path reference.
+2021-11-13 19:57:52,755 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0059: Class Path entry org/fusesource/jansi/jansi/1.18/jansi-1.18.jar in /C:/Users/edson/eclipse-workspace/project2_v3_1/wildfly-24.0.0.Final/content/ear.ear/lib/aesh.jar  does not point to a valid jar for a Class-Path reference.
+2021-11-13 19:57:52,761 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0059: Class Path entry aesh-2.0.jar in /C:/Users/edson/eclipse-workspace/project2_v3_1/wildfly-24.0.0.Final/content/ear.ear/lib/aesh-extensions.jar  does not point to a valid jar for a Class-Path reference.
+2021-11-13 19:57:52,763 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0059: Class Path entry aesh-readline-1.15.jar in /C:/Users/edson/eclipse-workspace/project2_v3_1/wildfly-24.0.0.Final/content/ear.ear/lib/aesh-extensions.jar  does not point to a valid jar for a Class-Path reference.
+2021-11-13 19:57:52,765 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0059: Class Path entry jansi-1.17.jar in /C:/Users/edson/eclipse-workspace/project2_v3_1/wildfly-24.0.0.Final/content/ear.ear/lib/aesh-extensions.jar  does not point to a valid jar for a Class-Path reference.
+2021-11-13 19:57:52,768 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0059: Class Path entry groovy-2.1.6.jar in /C:/Users/edson/eclipse-workspace/project2_v3_1/wildfly-24.0.0.Final/content/ear.ear/lib/aesh-extensions.jar  does not point to a valid jar for a Class-Path reference.
+2021-11-13 19:57:52,771 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0059: Class Path entry antlr-2.7.7.jar in /C:/Users/edson/eclipse-workspace/project2_v3_1/wildfly-24.0.0.Final/content/ear.ear/lib/aesh-extensions.jar  does not point to a valid jar for a Class-Path reference.
+2021-11-13 19:57:52,774 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0059: Class Path entry asm-tree-4.0.jar in /C:/Users/edson/eclipse-workspace/project2_v3_1/wildfly-24.0.0.Final/content/ear.ear/lib/aesh-extensions.jar  does not point to a valid jar for a Class-Path reference.
+2021-11-13 19:57:52,779 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0059: Class Path entry asm-commons-4.0.jar in /C:/Users/edson/eclipse-workspace/project2_v3_1/wildfly-24.0.0.Final/content/ear.ear/lib/aesh-extensions.jar  does not point to a valid jar for a Class-Path reference.
+2021-11-13 19:57:52,782 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0059: Class Path entry asm-4.0.jar in /C:/Users/edson/eclipse-workspace/project2_v3_1/wildfly-24.0.0.Final/content/ear.ear/lib/aesh-extensions.jar  does not point to a valid jar for a Class-Path reference.
+2021-11-13 19:57:52,784 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0059: Class Path entry asm-util-4.0.jar in /C:/Users/edson/eclipse-workspace/project2_v3_1/wildfly-24.0.0.Final/content/ear.ear/lib/aesh-extensions.jar  does not point to a valid jar for a Class-Path reference.
+2021-11-13 19:57:52,786 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0059: Class Path entry asm-analysis-4.0.jar in /C:/Users/edson/eclipse-workspace/project2_v3_1/wildfly-24.0.0.Final/content/ear.ear/lib/aesh-extensions.jar  does not point to a valid jar for a Class-Path reference.
+2021-11-13 19:57:52,820 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0059: Class Path entry org/fusesource/jansi/jansi/1.18/jansi-1.18.jar in /C:/Users/edson/eclipse-workspace/project2_v3_1/wildfly-24.0.0.Final/content/ear.ear/lib/aesh-readline.jar  does not point to a valid jar for a Class-Path reference.
+2021-11-13 19:57:52,825 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0059: Class Path entry org/aesh/aesh-terminal-api/1.17/aesh-terminal-api-1.17.jar in /C:/Users/edson/eclipse-workspace/project2_v3_1/wildfly-24.0.0.Final/content/ear.ear/lib/aesh-readline.jar  does not point to a valid jar for a Class-Path reference.
+2021-11-13 19:57:52,870 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0207: Starting subdeployment (runtime-name: "ejbs.jar")
+2021-11-13 19:57:52,870 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0207: Starting subdeployment (runtime-name: "rest.war")
+2021-11-13 19:57:52,872 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0207: Starting subdeployment (runtime-name: "web.war")
+2021-11-13 19:57:53,598 INFO  [org.jboss.weld.deployer] (MSC service thread 1-4) WFLYWELD0003: Processing weld deployment ear.ear
+2021-11-13 19:57:53,883 INFO  [org.jboss.weld.deployer] (MSC service thread 1-3) WFLYWELD0003: Processing weld deployment web.war
+2021-11-13 19:57:53,887 INFO  [org.jboss.weld.deployer] (MSC service thread 1-2) WFLYWELD0003: Processing weld deployment rest.war
+2021-11-13 19:57:53,914 INFO  [org.jboss.weld.deployer] (MSC service thread 1-5) WFLYWELD0003: Processing weld deployment ejbs.jar
+2021-11-13 19:57:53,977 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-5) WFLYEJB0473: JNDI bindings for session bean named 'EJBResearchers' in deployment unit 'subdeployment "ejbs.jar" of deployment "ear.ear"' are as follows:
+
+	java:global/ear/ejbs/EJBResearchers!beans.IEJBResearchers
+	java:app/ejbs/EJBResearchers!beans.IEJBResearchers
+	java:module/EJBResearchers!beans.IEJBResearchers
+	java:jboss/exported/ear/ejbs/EJBResearchers!beans.IEJBResearchers
+	ejb:ear/ejbs/EJBResearchers!beans.IEJBResearchers
+	java:global/ear/ejbs/EJBResearchers
+	java:app/ejbs/EJBResearchers
+	java:module/EJBResearchers
+
+2021-11-13 19:57:53,996 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-5) WFLYEJB0473: JNDI bindings for session bean named 'EJBPublications' in deployment unit 'subdeployment "ejbs.jar" of deployment "ear.ear"' are as follows:
+
+	java:global/ear/ejbs/EJBPublications!beans.IEJBPublications
+	java:app/ejbs/EJBPublications!beans.IEJBPublications
+	java:module/EJBPublications!beans.IEJBPublications
+	java:jboss/exported/ear/ejbs/EJBPublications!beans.IEJBPublications
+	ejb:ear/ejbs/EJBPublications!beans.IEJBPublications
+	java:global/ear/ejbs/EJBPublications
+	java:app/ejbs/EJBPublications
+	java:module/EJBPublications
+
+2021-11-13 19:57:54,038 INFO  [org.wildfly.microprofile.opentracing.smallrye] (MSC service thread 1-5) WFLYTRAC0001: Tracer initialized: NoopTracer
+2021-11-13 19:57:54,324 INFO  [io.jaegertracing.internal.JaegerTracer] (MSC service thread 1-2) No shutdown hook registered: Please call close() manually on application shutdown.
+2021-11-13 19:57:54,326 INFO  [org.wildfly.microprofile.opentracing.smallrye] (MSC service thread 1-2) WFLYTRAC0001: Tracer initialized: JaegerTracer(version=Java-1.5.0, serviceName=ear.ear!rest.war, reporter=RemoteReporter(sender=org.wildfly.extension.microprofile.opentracing.spi.sender.WildFlySender@5bb63bae, closeEnqueueTimeout=1000), sampler=ConstSampler(decision=true, tags={sampler.type=const, sampler.param=true}), tags={hostname=DESKTOP-R4V6IO5, jaeger.version=Java-1.5.0, ip=194.210.38.207}, zipkinSharedRpcSpan=false, expandExceptionLogs=false, useTraceId128Bit=false)
+2021-11-13 19:57:54,376 INFO  [io.jaegertracing.internal.JaegerTracer] (MSC service thread 1-3) No shutdown hook registered: Please call close() manually on application shutdown.
+2021-11-13 19:57:54,378 INFO  [org.wildfly.microprofile.opentracing.smallrye] (MSC service thread 1-3) WFLYTRAC0001: Tracer initialized: JaegerTracer(version=Java-1.5.0, serviceName=ear.ear!web.war, reporter=RemoteReporter(sender=org.wildfly.extension.microprofile.opentracing.spi.sender.WildFlySender@6bc477f8, closeEnqueueTimeout=1000), sampler=RemoteControlledSampler(maxOperations=2000, manager=HttpSamplingManager(hostPort=localhost:5778), sampler=ProbabilisticSampler(tags={sampler.type=probabilistic, sampler.param=0.001})), tags={hostname=DESKTOP-R4V6IO5, jaeger.version=Java-1.5.0, ip=194.210.38.207}, zipkinSharedRpcSpan=false, expandExceptionLogs=false, useTraceId128Bit=false)
+2021-11-13 19:57:54,473 INFO  [org.jboss.weld.Version] (MSC service thread 1-1) WELD-000900: 3.1.7 (SP1)
+2021-11-13 19:57:54,575 ERROR [org.jboss.msc.service.fail] (MSC service thread 1-7) MSC000001: Failed to start service jboss.deployment.subunit."ear.ear"."ejbs.jar".INSTALL: org.jboss.msc.service.StartException in service jboss.deployment.subunit."ear.ear"."ejbs.jar".INSTALL: WFLYSRV0153: Failed to process phase INSTALL of subdeployment "ejbs.jar" of deployment "ear.ear"
+	at org.jboss.as.server@16.0.0.Final//org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:189)
+	at org.jboss.msc@1.4.12.Final//org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1739)
+	at org.jboss.msc@1.4.12.Final//org.jboss.msc.service.ServiceControllerImpl$StartTask.execute(ServiceControllerImpl.java:1701)
+	at org.jboss.msc@1.4.12.Final//org.jboss.msc.service.ServiceControllerImpl$ControllerTask.run(ServiceControllerImpl.java:1559)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1990)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1486)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1377)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+Caused by: org.jboss.as.server.deployment.DeploymentUnitProcessingException: WFLYEE0041: Component class beans.EJBResearchers for component EJBResearchers has errors: 
+WFLYJPA0033: Can't find a persistence unit named search in subdeployment "ejbs.jar" of deployment "ear.ear"
+	at org.jboss.as.ee@24.0.0.Final//org.jboss.as.ee.component.deployers.ModuleJndiBindingProcessor$1.handle(ModuleJndiBindingProcessor.java:218)
+	at org.jboss.as.ee@24.0.0.Final//org.jboss.as.ee.component.ClassDescriptionTraversal.run(ClassDescriptionTraversal.java:54)
+	at org.jboss.as.ee@24.0.0.Final//org.jboss.as.ee.component.deployers.ModuleJndiBindingProcessor.processClassConfigurations(ModuleJndiBindingProcessor.java:246)
+	at org.jboss.as.ee@24.0.0.Final//org.jboss.as.ee.component.deployers.ModuleJndiBindingProcessor.deploy(ModuleJndiBindingProcessor.java:160)
+	at org.jboss.as.server@16.0.0.Final//org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:182)
+	... 8 more
+
+2021-11-13 19:57:55,109 ERROR [org.jboss.as.controller.management-operation] (DeploymentScanner-threads - 2) WFLYCTL0013: Operation ("deploy") failed - address: ([("deployment" => "ear.ear")]) - failure description: {
+    "WFLYCTL0080: Failed services" => {"jboss.deployment.subunit.\"ear.ear\".\"ejbs.jar\".INSTALL" => "WFLYSRV0153: Failed to process phase INSTALL of subdeployment \"ejbs.jar\" of deployment \"ear.ear\"
+    Caused by: org.jboss.as.server.deployment.DeploymentUnitProcessingException: WFLYEE0041: Component class beans.EJBResearchers for component EJBResearchers has errors: 
+WFLYJPA0033: Can't find a persistence unit named search in subdeployment \"ejbs.jar\" of deployment \"ear.ear\""},
+    "WFLYCTL0412: Required services that are not installed:" => [
+        "jboss.deployment.subunit.\"ear.ear\".\"ejbs.jar\".deploymentCompleteService",
+        "jboss.naming.context.java.comp.ear.ejbs.EJBResearchers",
+        "jboss.naming.context.java.comp.ear.ejbs.EJBPublications",
+        "jboss.deployment.subunit.\"ear.ear\".\"ejbs.jar\".jndiDependencyService",
+        "jboss.deployment.subunit.\"ear.ear\".\"ejbs.jar\".beanmanager"
+    ],
+    "WFLYCTL0180: Services with missing/unavailable dependencies" => [
+        "jboss.deployment.unit.\"ear.ear\".WeldStartService is missing [jboss.deployment.subunit.\"ear.ear\".\"ejbs.jar\".jndiDependencyService]",
+        "jboss.naming.context.java.comp.ear.ejbs.EJBResearchers.InAppClientContainer is missing [jboss.naming.context.java.comp.ear.ejbs.EJBResearchers]",
+        "jboss.deployment.subunit.\"ear.ear\".\"ejbs.jar\".batch.artifact.factory is missing [jboss.deployment.subunit.\"ear.ear\".\"ejbs.jar\".beanmanager]",
+        "jboss.naming.context.java.comp.ear.ejbs.EJBPublications.ValidatorFactory is missing [jboss.naming.context.java.comp.ear.ejbs.EJBPublications]",
+        "jboss.naming.context.java.comp.ear.ejbs.EJBResearchers.ValidatorFactory is missing [jboss.naming.context.java.comp.ear.ejbs.EJBResearchers]",
+        "jboss.naming.context.java.comp.ear.ejbs.EJBResearchers.InstanceName is missing [jboss.naming.context.java.comp.ear.ejbs.EJBResearchers]",
+        "jboss.naming.context.java.comp.ear.ejbs.EJBResearchers.ORB is missing [jboss.naming.context.java.comp.ear.ejbs.EJBResearchers]",
+        "jboss.deployment.subunit.\"ear.ear\".\"ejbs.jar\".weld.weldClassIntrospector is missing [jboss.deployment.subunit.\"ear.ear\".\"ejbs.jar\".beanmanager]",
+        "jboss.naming.context.java.comp.ear.ejbs.EJBResearchers.Validator is missing [jboss.naming.context.java.comp.ear.ejbs.EJBResearchers]",
+        "jboss.naming.context.java.comp.ear.ejbs.EJBResearchers.HandleDelegate is missing [jboss.naming.context.java.comp.ear.ejbs.EJBResearchers]",
+        "jboss.naming.context.java.comp.ear.ejbs.EJBPublications.InAppClientContainer is missing [jboss.naming.context.java.comp.ear.ejbs.EJBPublications]",
+        "jboss.naming.context.java.comp.ear.ejbs.EJBPublications.HandleDelegate is missing [jboss.naming.context.java.comp.ear.ejbs.EJBPublications]",
+        "jboss.deployment.unit.\"ear.ear\".deploymentCompleteService is missing [jboss.deployment.subunit.\"ear.ear\".\"ejbs.jar\".deploymentCompleteService]",
+        "jboss.naming.context.java.comp.ear.ejbs.EJBPublications.Validator is missing [jboss.naming.context.java.comp.ear.ejbs.EJBPublications]",
+        "jboss.naming.context.java.comp.ear.ejbs.EJBPublications.ORB is missing [jboss.naming.context.java.comp.ear.ejbs.EJBPublications]",
+        "jboss.naming.context.java.comp.ear.ejbs.EJBPublications.InstanceName is missing [jboss.naming.context.java.comp.ear.ejbs.EJBPublications]"
+    ]
+}
+2021-11-13 19:57:55,113 ERROR [org.jboss.as.controller.management-operation] (DeploymentScanner-threads - 2) WFLYCTL0013: Operation ("deploy") failed - address: ([("deployment" => "rest.war")]) - failure description: {
+    "WFLYCTL0080: Failed services" => {"jboss.deployment.unit.\"rest.war\".INSTALL" => "WFLYSRV0153: Failed to process phase INSTALL of deployment \"rest.war\"
+    Caused by: org.jboss.as.server.deployment.DeploymentUnitProcessingException: WFLYEJB0406: No Jakarta Enterprise Beans found with interface of type 'beans.IEJBPublications' for binding book.MyServiceREST/managePublications"},
+    "WFLYCTL0412: Required services that are not installed:" => [
+        "jboss.deployment.unit.\"rest.war\".WeldStartService",
+        "jboss.deployment.unit.\"rest.war\".beanmanager"
+    ],
+    "WFLYCTL0180: Services with missing/unavailable dependencies" => [
+        "jboss.deployment.unit.\"rest.war\".batch.artifact.factory is missing [jboss.deployment.unit.\"rest.war\".beanmanager]",
+        "jboss.deployment.unit.\"rest.war\".weld.weldClassIntrospector is missing [jboss.deployment.unit.\"rest.war\".beanmanager, jboss.deployment.unit.\"rest.war\".WeldStartService]"
+    ]
+}
+2021-11-13 19:57:55,220 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) WFLYSRV0010: Deployed "rest.war" (runtime-name : "rest.war")
+2021-11-13 19:57:55,221 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) WFLYSRV0010: Deployed "ear.ear" (runtime-name : "ear.ear")
+2021-11-13 19:57:55,222 INFO  [org.jboss.as.controller] (DeploymentScanner-threads - 2) WFLYCTL0183: Service status report
+WFLYCTL0184:    New missing/unsatisfied dependencies:
+      service jboss.deployment.subunit."ear.ear"."ejbs.jar".beanmanager (missing) dependents: [service jboss.deployment.subunit."ear.ear"."ejbs.jar".weld.weldClassIntrospector, service jboss.deployment.subunit."ear.ear"."ejbs.jar".batch.artifact.factory] 
+      service jboss.deployment.subunit."ear.ear"."ejbs.jar".deploymentCompleteService (missing) dependents: [service jboss.deployment.unit."ear.ear".deploymentCompleteService] 
+      service jboss.deployment.subunit."ear.ear"."ejbs.jar".jndiDependencyService (missing) dependents: [service jboss.deployment.unit."ear.ear".WeldStartService] 
+      service jboss.deployment.unit."rest.war".WeldStartService (missing) dependents: [service jboss.deployment.unit."rest.war".weld.weldClassIntrospector] 
+      service jboss.deployment.unit."rest.war".beanmanager (missing) dependents: [service jboss.deployment.unit."rest.war".weld.weldClassIntrospector, service jboss.deployment.unit."rest.war".batch.artifact.factory] 
+      service jboss.naming.context.java.comp.ear.ejbs.EJBPublications (missing) dependents: [service jboss.naming.context.java.comp.ear.ejbs.EJBPublications.ValidatorFactory, service jboss.naming.context.java.comp.ear.ejbs.EJBPublications.ORB, service jboss.naming.context.java.comp.ear.ejbs.EJBPublications.HandleDelegate, service jboss.naming.context.java.comp.ear.ejbs.EJBPublications.InstanceName, WFLYCTL0208: ... and 3 more ] 
+      service jboss.naming.context.java.comp.ear.ejbs.EJBResearchers (missing) dependents: [service jboss.naming.context.java.comp.ear.ejbs.EJBResearchers.ValidatorFactory, service jboss.naming.context.java.comp.ear.ejbs.EJBResearchers.InAppClientContainer, service jboss.naming.context.java.comp.ear.ejbs.EJBResearchers.HandleDelegate, service jboss.naming.context.java.comp.ear.ejbs.EJBResearchers.InstanceName, WFLYCTL0208: ... and 3 more ] 
+WFLYCTL0186:   Services which failed to start:      service jboss.deployment.unit."rest.war".INSTALL: WFLYSRV0153: Failed to process phase INSTALL of deployment "rest.war"
+      service jboss.deployment.subunit."ear.ear"."ejbs.jar".INSTALL: WFLYSRV0153: Failed to process phase INSTALL of subdeployment "ejbs.jar" of deployment "ear.ear"
+      service jboss.deployment.unit."ejbs.jar".INSTALL: WFLYSRV0153: Failed to process phase INSTALL of deployment "ejbs.jar"
+WFLYCTL0448: 24 additional services are down due to their dependencies being missing or failed
+2021-11-13 20:12:12,919 INFO  [org.jboss.as.server] (Thread-1) WFLYSRV0272: Suspending server
+2021-11-13 20:12:12,927 INFO  [org.jboss.as.ejb3] (Thread-1) WFLYEJB0493: Jakarta Enterprise Beans subsystem suspension complete
+2021-11-13 20:12:12,929 INFO  [org.jboss.as.server] (Thread-1) WFLYSRV0220: Server shutdown has been requested via an OS signal
+2021-11-13 20:12:12,965 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-1) WFLYJCA0019: Stopped Driver service with driver-name = h2
+2021-11-13 20:12:12,969 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-6) WFLYJCA0010: Unbound data source [java:/postgresDS]
+2021-11-13 20:12:12,969 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-5) WFLYMAIL0002: Unbound mail session [java:jboss/mail/Default]
+2021-11-13 20:12:12,970 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0019: Host default-host stopping
+2021-11-13 20:12:12,971 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-7) WFLYMSGAMQ0006: Unbound messaging object to jndi name java:jboss/exported/jms/RemoteConnectionFactory
+2021-11-13 20:12:12,979 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) WFLYJCA0010: Unbound data source [java:jboss/datasources/ExampleDS]
+2021-11-13 20:12:12,979 INFO  [org.jboss.as.connector.deployment] (MSC service thread 1-6) WFLYJCA0119: Unbinding connection factory named java:/JmsXA to alias java:jboss/DefaultJMSConnectionFactory
+2021-11-13 20:12:12,986 INFO  [org.jboss.as.connector.deployment] (MSC service thread 1-2) WFLYJCA0011: Unbound Jakarta Connectors ConnectionFactory [java:/JmsXA]
+2021-11-13 20:12:13,004 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-8) WFLYJCA0019: Stopped Driver service with driver-name = postgresql
+2021-11-13 20:12:13,018 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0028: Stopped deployment ejbs.jar (runtime-name: ejbs.jar) in 81ms
+2021-11-13 20:12:13,038 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0028: Stopped deployment rest.war (runtime-name: rest.war) in 95ms
+2021-11-13 20:12:13,115 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0028: Stopped deployment jpa.jar (runtime-name: jpa.jar) in 179ms
+2021-11-13 20:12:13,128 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0208: Stopped subdeployment (runtime-name: ejbs.jar) in 191ms
+2021-11-13 20:12:13,129 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0008: Undertow HTTPS listener https suspending
+2021-11-13 20:12:13,155 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0208: Stopped subdeployment (runtime-name: rest.war) in 217ms
+2021-11-13 20:12:13,170 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0208: Stopped subdeployment (runtime-name: web.war) in 235ms
+2021-11-13 20:12:13,182 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0007: Undertow HTTPS listener https stopped, was bound to 127.0.0.1:8443
+2021-11-13 20:12:13,225 INFO  [org.apache.activemq.artemis.ra] (ServerService Thread Pool -- 96) AMQ151003: resource adaptor stopped
+2021-11-13 20:12:13,394 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 94) WFLYCLINF0003: Stopped http-remoting-connector cache from ejb container
+2021-11-13 20:12:13,404 INFO  [org.infinispan.manager.DefaultCacheManager] (ServerService Thread Pool -- 94) Stopping cache manager null on null
+2021-11-13 20:12:13,567 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 96) AMQ221002: Apache ActiveMQ Artemis Message Broker version 2.16.0 [fd4b0c71-4319-11ec-a3ac-409f3845594b] stopped, uptime 25 minutes
+2021-11-13 20:12:13,571 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0008: Undertow HTTP listener default suspending
+2021-11-13 20:12:13,575 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0007: Undertow HTTP listener default stopped, was bound to 127.0.0.1:8080
+2021-11-13 20:12:13,591 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0004: Undertow 2.2.8.Final stopping
+2021-11-13 20:12:13,865 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0028: Stopped deployment ear.ear (runtime-name: ear.ear) in 922ms
+2021-11-13 20:12:13,883 INFO  [org.jboss.as] (MSC service thread 1-3) WFLYSRV0050: WildFly Full 24.0.0.Final (WildFly Core 16.0.0.Final) stopped in 949ms
+2021-11-13 20:12:33,241 INFO  [org.jboss.modules] (main) JBoss Modules version 1.11.0.Final
+2021-11-13 20:12:34,426 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.12.Final
+2021-11-13 20:12:34,455 INFO  [org.jboss.threads] (main) JBoss Threads version 2.4.0.Final
+2021-11-13 20:12:34,806 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0049: WildFly Full 24.0.0.Final (WildFly Core 16.0.0.Final) starting
+2021-11-13 20:12:34,814 DEBUG [org.jboss.as.config] (MSC service thread 1-2) Configured system properties:
+	file.encoding = Cp1252
+	file.separator = \
+	java.awt.headless = true
+	java.class.path = C:\Users\edson\eclipse-workspace\project2_v3_1\wildfly-24.0.0.Final\jboss-modules.jar
+	java.class.version = 60.0
+	java.home = C:\Program Files\Java\jdk-16.0.2
+	java.io.tmpdir = C:\Users\edson\AppData\Local\Temp\
+	java.library.path = C:\Program Files\Java\jdk-16.0.2\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\libnvvp;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\NVIDIA Corporation\Nsight Compute 2019.4.0\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\MATLAB\R2021a\bin;C:\TDM-GCC-64\bin;C:\Program Files\Portugal Identity Card\;C:\Users\edson\eclipse-workspace\project2\apache-maven-3.8.3\bin;C:\Users\edson\AppData\Local\Microsoft\WindowsApps;;C:\Users\edson\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\edson\.dotnet\tools;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 16.0.2+7-67
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 16
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = https://java.oracle.com/
+	java.vendor.url.bug = https://bugreport.java.com/bugreport/
+	java.version = 16.0.2
+	java.version.date = 2021-07-20
+	java.vm.compressedOopsMode = 32-bit
+	java.vm.info = mixed mode, sharing
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 16
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 16.0.2+7-67
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	jboss.home.dir = C:\Users\edson\eclipse-workspace\project2_v3_1\wildfly-24.0.0.Final
+	jboss.host.name = desktop-r4v6io5
+	jboss.modules.dir = C:\Users\edson\eclipse-workspace\project2_v3_1\wildfly-24.0.0.Final\modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = desktop-r4v6io5
+	jboss.qualified.host.name = desktop-r4v6io5
+	jboss.server.base.dir = C:\Users\edson\eclipse-workspace\project2_v3_1\wildfly-24.0.0.Final\standalone
+	jboss.server.config.dir = C:\Users\edson\eclipse-workspace\project2_v3_1\wildfly-24.0.0.Final\standalone\configuration
+	jboss.server.data.dir = C:\Users\edson\eclipse-workspace\project2_v3_1\wildfly-24.0.0.Final\standalone\data
+	jboss.server.deploy.dir = C:\Users\edson\eclipse-workspace\project2_v3_1\wildfly-24.0.0.Final\standalone\data\content
+	jboss.server.log.dir = C:\Users\edson\eclipse-workspace\project2_v3_1\wildfly-24.0.0.Final\standalone\log
+	jboss.server.name = desktop-r4v6io5
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = C:\Users\edson\eclipse-workspace\project2_v3_1\wildfly-24.0.0.Final\standalone\tmp
+	jdk.debug = release
+	line.separator = 
+
+	logging.configuration = file:C:\Users\edson\eclipse-workspace\project2_v3_1\wildfly-24.0.0.Final\standalone\configuration/logging.properties
+	module.path = C:\Users\edson\eclipse-workspace\project2_v3_1\wildfly-24.0.0.Final\modules
+	org.jboss.boot.log.file = C:\Users\edson\eclipse-workspace\project2_v3_1\wildfly-24.0.0.Final\standalone\log\server.log
+	org.jboss.resolver.warning = true
+	os.arch = amd64
+	os.name = Windows 10
+	os.version = 10.0
+	path.separator = ;
+	program.name = standalone.bat
+	sun.arch.data.model = 64
+	sun.boot.library.path = C:\Program Files\Java\jdk-16.0.2\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = C:\Users\edson\eclipse-workspace\project2_v3_1\wildfly-24.0.0.Final\jboss-modules.jar -mp C:\Users\edson\eclipse-workspace\project2_v3_1\wildfly-24.0.0.Final\modules org.jboss.as.standalone -Djboss.home.dir=C:\Users\edson\eclipse-workspace\project2_v3_1\wildfly-24.0.0.Final --server-config=standalone-full.xml
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1252
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = 
+	sun.stderr.encoding = cp850
+	sun.stdout.encoding = cp850
+	user.country = PT
+	user.dir = C:\Users\edson\eclipse-workspace\project2_v3_1\wildfly-24.0.0.Final
+	user.home = C:\Users\edson
+	user.language = pt
+	user.name = edson
+	user.script = 
+	user.timezone = Europe/Lisbon
+	user.variant = 
+2021-11-13 20:12:34,826 DEBUG [org.jboss.as.config] (MSC service thread 1-2) VM Arguments: -Dprogram.name=standalone.bat -Dprogram.name=standalone.bat -Xms64M -Xmx512M -XX:MetaspaceSize=96M -XX:MaxMetaspaceSize=256m -Djava.net.preferIPv4Stack=true -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true --add-exports=java.desktop/sun.awt=ALL-UNNAMED --add-exports=java.naming/com.sun.jndi.ldap=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.lang.invoke=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.security=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.management/javax.management=ALL-UNNAMED --add-opens=java.naming/javax.naming=ALL-UNNAMED --add-exports=java.desktop/sun.awt=ALL-UNNAMED --add-exports=java.naming/com.sun.jndi.ldap=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.lang.invoke=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.security=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.management/javax.management=ALL-UNNAMED --add-opens=java.naming/javax.naming=ALL-UNNAMED --add-exports=java.desktop/sun.awt=ALL-UNNAMED --add-exports=java.naming/com.sun.jndi.ldap=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.lang.invoke=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.security=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.management/javax.management=ALL-UNNAMED --add-opens=java.naming/javax.naming=ALL-UNNAMED -Dorg.jboss.boot.log.file=C:\Users\edson\eclipse-workspace\project2_v3_1\wildfly-24.0.0.Final\standalone\log\server.log -Dlogging.configuration=file:C:\Users\edson\eclipse-workspace\project2_v3_1\wildfly-24.0.0.Final\standalone\configuration/logging.properties 
+2021-11-13 20:12:37,284 INFO  [org.wildfly.security] (ServerService Thread Pool -- 29) ELY00001: WildFly Elytron version 1.16.0.Final
+2021-11-13 20:12:38,420 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 7) WFLYCTL0033: Extension 'security' is deprecated and may not be supported in future versions
+2021-11-13 20:12:39,345 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/core-service=management/management-interface=http-interface' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2021-11-13 20:12:39,514 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 12) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/subsystem=undertow/server=default-server/https-listener=https' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2021-11-13 20:12:39,670 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0015: Re-attempting failed deployment ear.ear
+2021-11-13 20:12:39,688 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0015: Re-attempting failed deployment ejbs.jar
+2021-11-13 20:12:39,724 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0015: Re-attempting failed deployment rest.war
+2021-11-13 20:12:40,922 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)

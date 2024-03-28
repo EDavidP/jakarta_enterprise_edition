@@ -1,0 +1,89 @@
+html,
+body {
+    background-color: #050533;
+    height: 100%;
+
+}
+h1 {
+    font-family: 'Fira Mono', Menlo, Consolas, 'DejaVu Sans Mono';
+    font-size: 40px; 
+    font-style: normal; 
+    font-variant-caps: petite-caps;
+    font-weight: bold; 
+    line-height: 26.399999618530273px;
+    background-color: #E34234;
+    color:#F2F1E8;
+    padding: 15px 2%;
+    height:100%;  
+    margin: 0.2%;
+    border-radius: 1%;
+    border: double;
+}
+
+h4 {
+    background-color: #050533;
+    color: #F2F1E8;
+    font-size: 28px; 
+    margin: 1.5%;
+    padding: 10px 1%;
+    height:100%;
+    font-weight: 100;
+}
+
+.row1 {
+
+    float: left;
+    width:  98%;
+    margin: 0.2%;
+    border-radius: 1%;
+    border: double;
+
+    background-color: #F2F1E8;
+    color: #050533;
+
+    font-style: normal;
+    font-family: 'Fira Mono', Menlo, Consolas, 'DejaVu Sans Mono';
+    font-size: 20px;
+    font-weight: 100;
+
+    text-align: center;
+}
+
+.row2 {
+
+    float: left;
+    width:  98%;
+    margin: 0.2%;
+    border-radius: 1%;
+    border: double;
+
+    background-color: #F2F1E8;
+    color: #050533;
+
+    font-style: normal;
+    font-family: 'Fira Mono', Menlo, Consolas, 'DejaVu Sans Mono';
+    font-size: 20px;
+    font-weight: 100;
+
+    text-align: center;
+}
+
+#Publications {
+    font-size: 22px;
+    font-family: 'Fira Mono', Menlo, Consolas, 'DejaVu Sans Mono';
+    text-align: center;
+    word-spacing: -4px;
+    align-content: middle;
+    align-items: center;
+}
+
+#Researchers {
+    font-size: 22px;
+    font-family: 'Fira Mono', Menlo, Consolas, 'DejaVu Sans Mono';
+    text-align: center;
+    word-spacing: -4px;
+    align-content: middle;
+    align-items: center;
+}
+
+
